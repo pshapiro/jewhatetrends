@@ -22,25 +22,25 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r data-tools/requirements.txt
-        
+
     - name: Update data
       run: |
         cd data-tools
         chmod +x update_all_data.sh
         ./update_all_data.sh
-        
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        
-      - name: Build website
-        run: |
-          cd website-source
-          rm -rf node_modules package-lock.json
-          npm install
-          npm run build
-          cp -r dist/* ../website/
+
+    - name: Build website
+      run: |
+        cd website-source
+        rm -rf node_modules package-lock.json
+        npm install
+        npm run build
+        cp -r dist/* ../website/
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
