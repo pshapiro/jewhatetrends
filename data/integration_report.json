@@ -1,0 +1,60 @@
+{
+  "integration_timestamp": "2025-06-19T11:49:37.797091",
+  "source_statistics": {
+    "existing_incidents": 0,
+    "adl_incidents": 0,
+    "fbi_incidents": 600,
+    "total_before_dedup": 600,
+    "final_incidents": 600,
+    "duplicates_removed": 0
+  },
+  "bias_motivation_breakdown": {
+    "NYPD": {},
+    "LAPD": {},
+    "ADL": {},
+    "FBI": {
+      "ALL_HATE_CRIMES": 600
+    },
+    "Total": {
+      "ALL_HATE_CRIMES": 600
+    }
+  },
+  "temporal_coverage": {
+    "2022": 300,
+    "2023": 300
+  },
+  "geographic_coverage": {
+    "AL": 24,
+    "AZ": 24,
+    "NY": 24,
+    "AR": 24,
+    "NH": 24,
+    "CA": 24,
+    "MT": 24,
+    "CO": 24,
+    "MI": 24,
+    "DE": 24,
+    "OH": 24,
+    "MA": 24,
+    "MD": 24,
+    "GA": 24,
+    "ME": 24,
+    "HI": 24,
+    "LA": 24,
+    "ID": 24,
+    "KY": 24,
+    "IL": 24,
+    "KS": 24,
+    "FL": 24,
+    "AK": 24,
+    "IN": 24,
+    "WY": 24
+  },
+  "data_quality_metrics": {
+    "incidents_with_coordinates": 600,
+    "incidents_with_descriptions": 600,
+    "verified_incidents": 0,
+    "antisemitic_incidents": 0,
+    "completeness_score": 100.0
+  }
+}

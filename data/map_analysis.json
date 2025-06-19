@@ -1,0 +1,23 @@
+{
+  "major_cities": [
+    {
+      "city": "New York",
+      "state": "NY",
+      "latitude": 40.6782,
+      "longitude": -73.9442,
+      "incident_count": 3575
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "incident_count": 717
+    }
+  ],
+  "summary": {
+    "total_incidents": 4292,
+    "cities_mapped": 2,
+    "date_range": "2019-2025"
+  }
+}

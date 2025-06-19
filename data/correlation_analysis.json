@@ -1,0 +1,22 @@
+{
+  "analysis_date": "2025-06-19T04:36:08.828003",
+  "data_points": 262,
+  "time_range": {
+    "start": "2020-06-14T00:00:00",
+    "end": "2025-06-15T00:00:00"
+  },
+  "correlations": {
+    "antisemitic_index_mean": {
+      "correlation": 0.347564434651232,
+      "p_value": 7.464554076859577e-09
+    },
+    "antisemitic_index_max": {
+      "correlation": 0.2622707775862423,
+      "p_value": 1.7045741154507945e-05
+    },
+    "antisemitic_index_sum": {
+      "correlation": 0.35101420342329753,
+      "p_value": 5.175881892504373e-09
+    }
+  }
+}
