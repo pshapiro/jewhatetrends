@@ -10,7 +10,18 @@ import requests
 from pathlib import Path
 from datetime import datetime
 import time
+import urllib.parse
 
+def update_trends_url(url: str, start: str, end: str) -> str:
+    """Update the time range in a Google Trends export URL."""
+    parsed = urllib.parse.urlparse(url)
+    params = urllib.parse.parse_qs(parsed.query)
+    if 'req' in params:
+        req_json = json.loads(urllib.parse.unquote(params['req'][0]))
+        req_json['time'] = f"{start} {end}"
+        params['req'] = [urllib.parse.quote(json.dumps(req_json, separators=(',', ':')))]
+    new_query = '&'.join(f"{k}={v[0]}" for k, v in params.items())
+    return urllib.parse.urlunparse(parsed._replace(query=new_query))
 def load_trends_urls():
     """Return the working Google Trends URLs"""
     return {
@@ -27,7 +38,7 @@ def load_trends_urls():
         "extreme_antisemitism": "https://trends.google.com/trends/api/widgetdata/multiline/csv?req=%7B%22time%22%3A%222020-06-18%202025-06-18%22%2C%22resolution%22%3A%22WEEK%22%2C%22locale%22%3A%22en-US%22%2C%22comparisonItem%22%3A%5B%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22based%20antisemitism%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22hitler%20war%20right%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22dancing%20israelis%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22fuck%20jews%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22fuck%20the%20jews%22%7D%5D%7D%7D%5D%2C%22requestOptions%22%3A%7B%22property%22%3A%22%22%2C%22backend%22%3A%22IZG%22%2C%22category%22%3A0%7D%2C%22userConfig%22%3A%7B%22userType%22%3A%22USER_TYPE_LEGIT_USER%22%7D%7D&token=APP6_UEAAAAAaFRyNe94XGxLTszr7tmnYFOpAfcro_lu&tz=240"
     }
 
-def download_category_data(category, url, output_dir):
+def download_category_data(category, url, output_dir, start_date: str, end_date: str):
     """Download data for a specific category"""
     try:
         print(f"🔍 Downloading {category}...")
@@ -37,6 +48,9 @@ def download_category_data(category, url, output_dir):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         }
         
+        # Update URL with the desired date range
+        url = update_trends_url(url, start_date, end_date)
+
         # Make request
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
@@ -92,7 +106,7 @@ def main():
     
     # Set up output directory
     script_dir = Path(__file__).parent
-    output_dir = script_dir / "public" / "data"
+    output_dir = Path("website-source/public/data")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     print(f"📁 Data will be saved to: {output_dir}")
@@ -100,11 +114,14 @@ def main():
     # Load URLs
     urls = load_trends_urls()
     print(f"🔗 Configured for {len(urls)} trend categories")
+
+    start_date = "2020-06-18"
+    end_date = datetime.now().strftime("%Y-%m-%d")
     
     # Download each category
     results = []
     for category, url in urls.items():
-        result = download_category_data(category, url, output_dir)
+        result = download_category_data(category, url, output_dir, start_date, end_date)
         results.append(result)
         
         # Wait between requests
