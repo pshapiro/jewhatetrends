@@ -21,7 +21,7 @@ jobs:
         
     - name: Install dependencies
       run: |
-        pip install -r /data-tools/requirements.txt
+        pip install -r data-tools/requirements.txt
         
     - name: Update data
       run: |
