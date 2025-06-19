@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "esModuleInterop": true
+  },
+  "include": [
+    "vite.config.ts",
+    "scripts/**/*.ts"
+  ]
+}

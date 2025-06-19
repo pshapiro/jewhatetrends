@@ -1,0 +1,14 @@
+{
+  "integration_timestamp": "2025-06-19T01:00:00",
+  "source_statistics": {
+    "existing_incidents": 4292,
+    "adl_incidents": 2500,
+    "final_incidents": 6792,
+    "duplicates_removed": 0
+  },
+  "data_quality_metrics": {
+    "antisemitic_incidents": 3679,
+    "incidents_with_coordinates": 2500,
+    "completeness_score": 85.0
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "state_data": [
+    {
+      "state": "NY",
+      "incident_count": 1684,
+      "state_name": "New York"
+    },
+    {
+      "state": "New York",
+      "incident_count": 735,
+      "state_name": "New York"
+    },
+    {
+      "state": "California",
+      "incident_count": 627,
+      "state_name": "California"
+    },
+    {
+      "state": "Florida",
+      "incident_count": 377,
+      "state_name": "Florida"
+    },
+    {
+      "state": "New Jersey",
+      "incident_count": 250,
+      "state_name": "New Jersey"
+    },
+    {
+      "state": "Pennsylvania",
+      "incident_count": 183,
+      "state_name": "Pennsylvania"
+    },
+    {
+      "state": "Illinois",
+      "incident_count": 180,
+      "state_name": "Illinois"
+    },
+    {
+      "state": "Massachusetts",
+      "incident_count": 148,
+      "state_name": "Massachusetts"
+    },
+    {
+      "state": "CA",
+      "incident_count": 37,
+      "state_name": "California"
+    },
+    {
+      "state": "CO",
+      "incident_count": 24,
+      "state_name": "Colorado"
+    },
+    {
+      "state": "AZ",
+      "incident_count": 24,
+      "state_name": "Arizona"
+    },
+    {
+      "state": "IL",
+      "incident_count": 24,
+      "state_name": "Illinois"
+    },
+    {
+      "state": "GA",
+      "incident_count": 24,
+      "state_name": "Georgia"
+    },
+    {
+      "state": "DC",
+      "incident_count": 24,
+      "state_name": "Washington D.C."
+    },
+    {
+      "state": "FL",
+      "incident_count": 24,
+      "state_name": "Florida"
+    },
+    {
+      "state": "CT",
+      "incident_count": 24,
+      "state_name": "Connecticut"
+    },
+    {
+      "state": "MD",
+      "incident_count": 24,
+      "state_name": "Maryland"
+    },
+    {
+      "state": "MI",
+      "incident_count": 24,
+      "state_name": "Michigan"
+    },
+    {
+      "state": "MA",
+      "incident_count": 24,
+      "state_name": "Massachusetts"
+    },
+    {
+      "state": "NC",
+      "incident_count": 24,
+      "state_name": "North Carolina"
+    },
+    {
+      "state": "NJ",
+      "incident_count": 24,
+      "state_name": "New Jersey"
+    },
+    {
+      "state": "OR",
+      "incident_count": 24,
+      "state_name": "Oregon"
+    },
+    {
+      "state": "OH",
+      "incident_count": 24,
+      "state_name": "Ohio"
+    },
+    {
+      "state": "PA",
+      "incident_count": 24,
+      "state_name": "Pennsylvania"
+    },
+    {
+      "state": "TX",
+      "incident_count": 24,
+      "state_name": "Texas"
+    },
+    {
+      "state": "VA",
+      "incident_count": 24,
+      "state_name": "Virginia"
+    },
+    {
+      "state": "WA",
+      "incident_count": 24,
+      "state_name": "Washington"
+    }
+  ],
+  "summary": {
+    "total_states": 27,
+    "total_incidents": 4653
+  }
+}

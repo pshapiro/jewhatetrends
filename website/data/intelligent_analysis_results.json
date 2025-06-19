@@ -1,0 +1,1493 @@
+{
+  "yearly_analysis": [
+    {
+      "year": 2019,
+      "incidents_corrected": 558.4,
+      "incident_count": 445,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 558.4,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2020,
+      "incidents_corrected": 342.7,
+      "incident_count": 286,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 342.7,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2021,
+      "incidents_corrected": 676.75,
+      "incident_count": 580,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 676.75,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2022,
+      "incidents_corrected": 1958.8,
+      "incident_count": 1525,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 1958.8,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2023,
+      "incidents_corrected": 3117.2999999999997,
+      "incident_count": 2373,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 3117.2999999999997,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2024,
+      "incidents_corrected": 3225.25,
+      "incident_count": 2440,
+      "is_complete": true,
+      "months_available": 12,
+      "completion_rate": 1.0,
+      "projected_annual": 3225.25,
+      "projection_confidence": "HIGH"
+    },
+    {
+      "year": 2025,
+      "incidents_corrected": 1278.75,
+      "incident_count": 939,
+      "is_complete": false,
+      "months_available": 6,
+      "completion_rate": 0.5,
+      "projected_annual": 2557.5,
+      "projection_confidence": "MEDIUM"
+    }
+  ],
+  "monthly_analysis": [
+    {
+      "month_year": "2019-01",
+      "incidents_corrected": 47.699999999999996,
+      "incident_count": 36,
+      "date": "2019-01-01 00:00:00",
+      "year": 2019,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 0.37376168355067996
+    },
+    {
+      "month_year": "2019-02",
+      "incidents_corrected": 39.55,
+      "incident_count": 31,
+      "date": "2019-02-01 00:00:00",
+      "year": 2019,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 0.3284299187377661
+    },
+    {
+      "month_year": "2019-03",
+      "incidents_corrected": 66.6,
+      "incident_count": 54,
+      "date": "2019-03-01 00:00:00",
+      "year": 2019,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 0.4442115292996665
+    },
+    {
+      "month_year": "2019-04",
+      "incidents_corrected": 34.3,
+      "incident_count": 28,
+      "date": "2019-04-01 00:00:00",
+      "year": 2019,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 0.2564759920952838
+    },
+    {
+      "month_year": "2019-05",
+      "incidents_corrected": 46.8,
+      "incident_count": 36,
+      "date": "2019-05-01 00:00:00",
+      "year": 2019,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 0.3047725369801842
+    },
+    {
+      "month_year": "2019-06",
+      "incidents_corrected": 45.55,
+      "incident_count": 37,
+      "date": "2019-06-01 00:00:00",
+      "year": 2019,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 0.3051585529254131
+    },
+    {
+      "month_year": "2019-07",
+      "incidents_corrected": 32.15,
+      "incident_count": 29,
+      "date": "2019-07-01 00:00:00",
+      "year": 2019,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 0.23918164910105394
+    },
+    {
+      "month_year": "2019-08",
+      "incidents_corrected": 55.8,
+      "incident_count": 45,
+      "date": "2019-08-01 00:00:00",
+      "year": 2019,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 0.36223965377332973
+    },
+    {
+      "month_year": "2019-09",
+      "incidents_corrected": 34.4,
+      "incident_count": 29,
+      "date": "2019-09-01 00:00:00",
+      "year": 2019,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 0.2526006608738221
+    },
+    {
+      "month_year": "2019-10",
+      "incidents_corrected": 61.949999999999996,
+      "incident_count": 48,
+      "date": "2019-10-01 00:00:00",
+      "year": 2019,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 0.38582105044633586
+    },
+    {
+      "month_year": "2019-11",
+      "incidents_corrected": 44.55,
+      "incident_count": 36,
+      "date": "2019-11-01 00:00:00",
+      "year": 2019,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 0.2856684834882975
+    },
+    {
+      "month_year": "2019-12",
+      "incidents_corrected": 49.05,
+      "incident_count": 36,
+      "date": "2019-12-01 00:00:00",
+      "year": 2019,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 0.32833156691024706
+    },
+    {
+      "month_year": "2020-01",
+      "incidents_corrected": 40.449999999999996,
+      "incident_count": 31,
+      "date": "2020-01-01 00:00:00",
+      "year": 2020,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 0.3169530419208596
+    },
+    {
+      "month_year": "2020-02",
+      "incidents_corrected": 36.1,
+      "incident_count": 28,
+      "date": "2020-02-01 00:00:00",
+      "year": 2020,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 0.2997805326531823
+    },
+    {
+      "month_year": "2020-03",
+      "incidents_corrected": 39.4,
+      "incident_count": 34,
+      "date": "2020-03-01 00:00:00",
+      "year": 2020,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 0.26279180562172466
+    },
+    {
+      "month_year": "2020-04",
+      "incidents_corrected": 17.15,
+      "incident_count": 14,
+      "date": "2020-04-01 00:00:00",
+      "year": 2020,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 0.1282379960476419
+    },
+    {
+      "month_year": "2020-05",
+      "incidents_corrected": 21.15,
+      "incident_count": 18,
+      "date": "2020-05-01 00:00:00",
+      "year": 2020,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 0.1377337426737371
+    },
+    {
+      "month_year": "2020-06",
+      "incidents_corrected": 19.8,
+      "incident_count": 18,
+      "date": "2020-06-01 00:00:00",
+      "year": 2020,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 0.13264850379633764
+    },
+    {
+      "month_year": "2020-07",
+      "incidents_corrected": 35.95,
+      "incident_count": 31,
+      "date": "2020-07-01 00:00:00",
+      "year": 2020,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 0.2674519528828271
+    },
+    {
+      "month_year": "2020-08",
+      "incidents_corrected": 23.25,
+      "incident_count": 21,
+      "date": "2020-08-01 00:00:00",
+      "year": 2020,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 0.15093318907222072
+    },
+    {
+      "month_year": "2020-09",
+      "incidents_corrected": 25.95,
+      "incident_count": 21,
+      "date": "2020-09-01 00:00:00",
+      "year": 2020,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 0.1905519520254559
+    },
+    {
+      "month_year": "2020-10",
+      "incidents_corrected": 32.4,
+      "incident_count": 27,
+      "date": "2020-10-01 00:00:00",
+      "year": 2020,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 0.2017853435748391
+    },
+    {
+      "month_year": "2020-11",
+      "incidents_corrected": 20.5,
+      "incident_count": 16,
+      "date": "2020-11-01 00:00:00",
+      "year": 2020,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 0.13145238858608527
+    },
+    {
+      "month_year": "2020-12",
+      "incidents_corrected": 30.6,
+      "incident_count": 27,
+      "date": "2020-12-01 00:00:00",
+      "year": 2020,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 0.20483070229263123
+    },
+    {
+      "month_year": "2021-01",
+      "incidents_corrected": 16.35,
+      "incident_count": 15,
+      "date": "2021-01-01 00:00:00",
+      "year": 2021,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 0.12811328146862933
+    },
+    {
+      "month_year": "2021-02",
+      "incidents_corrected": 24.6,
+      "incident_count": 21,
+      "date": "2021-02-01 00:00:00",
+      "year": 2021,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 0.20428257903790262
+    },
+    {
+      "month_year": "2021-03",
+      "incidents_corrected": 62.85,
+      "incident_count": 57,
+      "date": "2021-03-01 00:00:00",
+      "year": 2021,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 0.4191996188661268
+    },
+    {
+      "month_year": "2021-04",
+      "incidents_corrected": 84.05,
+      "incident_count": 71,
+      "date": "2021-04-01 00:00:00",
+      "year": 2021,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 0.6284783421460235
+    },
+    {
+      "month_year": "2021-05",
+      "incidents_corrected": 121.3,
+      "incident_count": 97,
+      "date": "2021-05-01 00:00:00",
+      "year": 2021,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 0.789933947343939
+    },
+    {
+      "month_year": "2021-06",
+      "incidents_corrected": 73.2,
+      "incident_count": 66,
+      "date": "2021-06-01 00:00:00",
+      "year": 2021,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 0.4903974988834301
+    },
+    {
+      "month_year": "2021-07",
+      "incidents_corrected": 41.7,
+      "incident_count": 39,
+      "date": "2021-07-01 00:00:00",
+      "year": 2021,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 0.31022938623682583
+    },
+    {
+      "month_year": "2021-08",
+      "incidents_corrected": 44.4,
+      "incident_count": 39,
+      "date": "2021-08-01 00:00:00",
+      "year": 2021,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 0.2882337030024344
+    },
+    {
+      "month_year": "2021-09",
+      "incidents_corrected": 61.55,
+      "incident_count": 53,
+      "date": "2021-09-01 00:00:00",
+      "year": 2021,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 0.4519642638599927
+    },
+    {
+      "month_year": "2021-10",
+      "incidents_corrected": 46.65,
+      "incident_count": 39,
+      "date": "2021-10-01 00:00:00",
+      "year": 2021,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 0.2905335270915508
+    },
+    {
+      "month_year": "2021-11",
+      "incidents_corrected": 48.75,
+      "incident_count": 42,
+      "date": "2021-11-01 00:00:00",
+      "year": 2021,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 0.3126001923693491
+    },
+    {
+      "month_year": "2021-12",
+      "incidents_corrected": 51.35,
+      "incident_count": 41,
+      "date": "2021-12-01 00:00:00",
+      "year": 2021,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 0.3437273386511965
+    },
+    {
+      "month_year": "2022-01",
+      "incidents_corrected": 50.65,
+      "incident_count": 43,
+      "date": "2022-01-01 00:00:00",
+      "year": 2022,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 0.3968769239379862
+    },
+    {
+      "month_year": "2022-02",
+      "incidents_corrected": 118.05,
+      "incident_count": 96,
+      "date": "2022-02-01 00:00:00",
+      "year": 2022,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 0.9803072542855448
+    },
+    {
+      "month_year": "2022-03",
+      "incidents_corrected": 72.9,
+      "incident_count": 63,
+      "date": "2022-03-01 00:00:00",
+      "year": 2022,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 0.4862315388280134
+    },
+    {
+      "month_year": "2022-04",
+      "incidents_corrected": 54.1,
+      "incident_count": 46,
+      "date": "2022-04-01 00:00:00",
+      "year": 2022,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 0.40452918869839233
+    },
+    {
+      "month_year": "2022-05",
+      "incidents_corrected": 69.6,
+      "incident_count": 57,
+      "date": "2022-05-01 00:00:00",
+      "year": 2022,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 0.45325146525258164
+    },
+    {
+      "month_year": "2022-06",
+      "incidents_corrected": 150.8,
+      "incident_count": 122,
+      "date": "2022-06-01 00:00:00",
+      "year": 2022,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 1.0102724430549352
+    },
+    {
+      "month_year": "2022-07",
+      "incidents_corrected": 253.7,
+      "incident_count": 197,
+      "date": "2022-07-01 00:00:00",
+      "year": 2022,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 1.8874147551146931
+    },
+    {
+      "month_year": "2022-08",
+      "incidents_corrected": 257.95,
+      "incident_count": 199,
+      "date": "2022-08-01 00:00:00",
+      "year": 2022,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 1.6745469299431972
+    },
+    {
+      "month_year": "2022-09",
+      "incidents_corrected": 235.45,
+      "incident_count": 181,
+      "date": "2022-09-01 00:00:00",
+      "year": 2022,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 1.7289193489169015
+    },
+    {
+      "month_year": "2022-10",
+      "incidents_corrected": 239.15,
+      "incident_count": 182,
+      "date": "2022-10-01 00:00:00",
+      "year": 2022,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 1.489412497405024
+    },
+    {
+      "month_year": "2022-11",
+      "incidents_corrected": 240.0,
+      "incident_count": 177,
+      "date": "2022-11-01 00:00:00",
+      "year": 2022,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 1.5389547932029495
+    },
+    {
+      "month_year": "2022-12",
+      "incidents_corrected": 216.45,
+      "incident_count": 162,
+      "date": "2022-12-01 00:00:00",
+      "year": 2022,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 1.4488759970993472
+    },
+    {
+      "month_year": "2023-01",
+      "incidents_corrected": 253.9,
+      "incident_count": 190,
+      "date": "2023-01-01 00:00:00",
+      "year": 2023,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 1.9894778082498459
+    },
+    {
+      "month_year": "2023-02",
+      "incidents_corrected": 190.0,
+      "incident_count": 145,
+      "date": "2023-02-01 00:00:00",
+      "year": 2023,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 1.5777922771220119
+    },
+    {
+      "month_year": "2023-03",
+      "incidents_corrected": 248.54999999999998,
+      "incident_count": 186,
+      "date": "2023-03-01 00:00:00",
+      "year": 2023,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 1.6577894235350168
+    },
+    {
+      "month_year": "2023-04",
+      "incidents_corrected": 229.5,
+      "incident_count": 180,
+      "date": "2023-04-01 00:00:00",
+      "year": 2023,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 1.716071142445121
+    },
+    {
+      "month_year": "2023-05",
+      "incidents_corrected": 263.55,
+      "incident_count": 201,
+      "date": "2023-05-01 00:00:00",
+      "year": 2023,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 1.7162991906223837
+    },
+    {
+      "month_year": "2023-06",
+      "incidents_corrected": 282.25,
+      "incident_count": 217,
+      "date": "2023-06-01 00:00:00",
+      "year": 2023,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 1.8909111210361766
+    },
+    {
+      "month_year": "2023-07",
+      "incidents_corrected": 211.79999999999998,
+      "incident_count": 165,
+      "date": "2023-07-01 00:00:00",
+      "year": 2023,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 1.575697458152511
+    },
+    {
+      "month_year": "2023-08",
+      "incidents_corrected": 257.8,
+      "incident_count": 193,
+      "date": "2023-08-01 00:00:00",
+      "year": 2023,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 1.673573167433054
+    },
+    {
+      "month_year": "2023-09",
+      "incidents_corrected": 213.6,
+      "incident_count": 165,
+      "date": "2023-09-01 00:00:00",
+      "year": 2023,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 1.5684738710072208
+    },
+    {
+      "month_year": "2023-10",
+      "incidents_corrected": 313.25,
+      "incident_count": 239,
+      "date": "2023-10-01 00:00:00",
+      "year": 2023,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 1.9509030516919246
+    },
+    {
+      "month_year": "2023-11",
+      "incidents_corrected": 343.05,
+      "incident_count": 258,
+      "date": "2023-11-01 00:00:00",
+      "year": 2023,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 2.199743507534466
+    },
+    {
+      "month_year": "2023-12",
+      "incidents_corrected": 310.05,
+      "incident_count": 234,
+      "date": "2023-12-01 00:00:00",
+      "year": 2023,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 2.0754169688179838
+    },
+    {
+      "month_year": "2024-01",
+      "incidents_corrected": 250.54999999999998,
+      "incident_count": 188,
+      "date": "2024-01-01 00:00:00",
+      "year": 2024,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 1.963228297979515
+    },
+    {
+      "month_year": "2024-02",
+      "incidents_corrected": 242.5,
+      "incident_count": 184,
+      "date": "2024-02-01 00:00:00",
+      "year": 2024,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 2.0137611958004626
+    },
+    {
+      "month_year": "2024-03",
+      "incidents_corrected": 289.25,
+      "incident_count": 215,
+      "date": "2024-03-01 00:00:00",
+      "year": 2024,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 1.929252024773702
+    },
+    {
+      "month_year": "2024-04",
+      "incidents_corrected": 303.45,
+      "incident_count": 231,
+      "date": "2024-04-01 00:00:00",
+      "year": 2024,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 2.2690273994552155
+    },
+    {
+      "month_year": "2024-05",
+      "incidents_corrected": 305.4,
+      "incident_count": 228,
+      "date": "2024-05-01 00:00:00",
+      "year": 2024,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 1.9888361708065867
+    },
+    {
+      "month_year": "2024-06",
+      "incidents_corrected": 324.0,
+      "incident_count": 243,
+      "date": "2024-06-01 00:00:00",
+      "year": 2024,
+      "month": 6,
+      "is_complete": true,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 2.170611880303707
+    },
+    {
+      "month_year": "2024-07",
+      "incidents_corrected": 231.2,
+      "incident_count": 179,
+      "date": "2024-07-01 00:00:00",
+      "year": 2024,
+      "month": 7,
+      "is_complete": true,
+      "seasonal_average": 134.41666666666666,
+      "vs_seasonal_avg": 1.7200247985120893
+    },
+    {
+      "month_year": "2024-08",
+      "incidents_corrected": 285.05,
+      "incident_count": 218,
+      "date": "2024-08-01 00:00:00",
+      "year": 2024,
+      "month": 8,
+      "is_complete": true,
+      "seasonal_average": 154.04166666666666,
+      "vs_seasonal_avg": 1.8504733567757643
+    },
+    {
+      "month_year": "2024-09",
+      "incidents_corrected": 246.15,
+      "incident_count": 189,
+      "date": "2024-09-01 00:00:00",
+      "year": 2024,
+      "month": 9,
+      "is_complete": true,
+      "seasonal_average": 136.1833333333333,
+      "vs_seasonal_avg": 1.8074899033166079
+    },
+    {
+      "month_year": "2024-10",
+      "incidents_corrected": 270.0,
+      "incident_count": 207,
+      "date": "2024-10-01 00:00:00",
+      "year": 2024,
+      "month": 10,
+      "is_complete": true,
+      "seasonal_average": 160.56666666666666,
+      "vs_seasonal_avg": 1.681544529790326
+    },
+    {
+      "month_year": "2024-11",
+      "incidents_corrected": 238.85,
+      "incident_count": 179,
+      "date": "2024-11-01 00:00:00",
+      "year": 2024,
+      "month": 11,
+      "is_complete": true,
+      "seasonal_average": 155.95000000000002,
+      "vs_seasonal_avg": 1.531580634818852
+    },
+    {
+      "month_year": "2024-12",
+      "incidents_corrected": 238.85,
+      "incident_count": 179,
+      "date": "2024-12-01 00:00:00",
+      "year": 2024,
+      "month": 12,
+      "is_complete": true,
+      "seasonal_average": 149.39166666666668,
+      "vs_seasonal_avg": 1.5988174262285935
+    },
+    {
+      "month_year": "2025-01",
+      "incidents_corrected": 233.75,
+      "incident_count": 173,
+      "date": "2025-01-01 00:00:00",
+      "year": 2025,
+      "month": 1,
+      "is_complete": true,
+      "seasonal_average": 127.62142857142858,
+      "vs_seasonal_avg": 1.8315889628924833
+    },
+    {
+      "month_year": "2025-02",
+      "incidents_corrected": 192.15,
+      "incident_count": 144,
+      "date": "2025-02-01 00:00:00",
+      "year": 2025,
+      "month": 2,
+      "is_complete": true,
+      "seasonal_average": 120.42142857142858,
+      "vs_seasonal_avg": 1.5956462423631295
+    },
+    {
+      "month_year": "2025-03",
+      "incidents_corrected": 269.95,
+      "incident_count": 202,
+      "date": "2025-03-01 00:00:00",
+      "year": 2025,
+      "month": 3,
+      "is_complete": true,
+      "seasonal_average": 149.92857142857142,
+      "vs_seasonal_avg": 1.8005240590757505
+    },
+    {
+      "month_year": "2025-04",
+      "incidents_corrected": 213.6,
+      "incident_count": 156,
+      "date": "2025-04-01 00:00:00",
+      "year": 2025,
+      "month": 4,
+      "is_complete": true,
+      "seasonal_average": 133.7357142857143,
+      "vs_seasonal_avg": 1.5971799391123216
+    },
+    {
+      "month_year": "2025-05",
+      "incidents_corrected": 247.1,
+      "incident_count": 176,
+      "date": "2025-05-01 00:00:00",
+      "year": 2025,
+      "month": 5,
+      "is_complete": true,
+      "seasonal_average": 153.55714285714285,
+      "vs_seasonal_avg": 1.609172946320588
+    },
+    {
+      "month_year": "2025-06",
+      "incidents_corrected": 122.2,
+      "incident_count": 88,
+      "date": "2025-06-01 00:00:00",
+      "year": 2025,
+      "month": 6,
+      "is_complete": false,
+      "seasonal_average": 149.26666666666668,
+      "vs_seasonal_avg": 0.8186690486824475
+    }
+  ],
+  "correlation_dataset": [
+    {
+      "month_year": "2019-01",
+      "antisemitic_incidents": 47.699999999999996,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-01-01 00:00:00"
+    },
+    {
+      "month_year": "2019-02",
+      "antisemitic_incidents": 39.55,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-02-01 00:00:00"
+    },
+    {
+      "month_year": "2019-03",
+      "antisemitic_incidents": 66.6,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-03-01 00:00:00"
+    },
+    {
+      "month_year": "2019-04",
+      "antisemitic_incidents": 34.3,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-04-01 00:00:00"
+    },
+    {
+      "month_year": "2019-05",
+      "antisemitic_incidents": 46.8,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-05-01 00:00:00"
+    },
+    {
+      "month_year": "2019-06",
+      "antisemitic_incidents": 45.55,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-06-01 00:00:00"
+    },
+    {
+      "month_year": "2019-07",
+      "antisemitic_incidents": 32.15,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-07-01 00:00:00"
+    },
+    {
+      "month_year": "2019-08",
+      "antisemitic_incidents": 55.8,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-08-01 00:00:00"
+    },
+    {
+      "month_year": "2019-09",
+      "antisemitic_incidents": 34.4,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-09-01 00:00:00"
+    },
+    {
+      "month_year": "2019-10",
+      "antisemitic_incidents": 61.949999999999996,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-10-01 00:00:00"
+    },
+    {
+      "month_year": "2019-11",
+      "antisemitic_incidents": 44.55,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-11-01 00:00:00"
+    },
+    {
+      "month_year": "2019-12",
+      "antisemitic_incidents": 49.05,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2019-12-01 00:00:00"
+    },
+    {
+      "month_year": "2020-01",
+      "antisemitic_incidents": 40.449999999999996,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-01-01 00:00:00"
+    },
+    {
+      "month_year": "2020-02",
+      "antisemitic_incidents": 36.1,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-02-01 00:00:00"
+    },
+    {
+      "month_year": "2020-03",
+      "antisemitic_incidents": 39.4,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-03-01 00:00:00"
+    },
+    {
+      "month_year": "2020-04",
+      "antisemitic_incidents": 17.15,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-04-01 00:00:00"
+    },
+    {
+      "month_year": "2020-05",
+      "antisemitic_incidents": 21.15,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-05-01 00:00:00"
+    },
+    {
+      "month_year": "2020-06",
+      "antisemitic_incidents": 19.8,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-06-01 00:00:00"
+    },
+    {
+      "month_year": "2020-07",
+      "antisemitic_incidents": 35.95,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-07-01 00:00:00"
+    },
+    {
+      "month_year": "2020-08",
+      "antisemitic_incidents": 23.25,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-08-01 00:00:00"
+    },
+    {
+      "month_year": "2020-09",
+      "antisemitic_incidents": 25.95,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-09-01 00:00:00"
+    },
+    {
+      "month_year": "2020-10",
+      "antisemitic_incidents": 32.4,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-10-01 00:00:00"
+    },
+    {
+      "month_year": "2020-11",
+      "antisemitic_incidents": 20.5,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-11-01 00:00:00"
+    },
+    {
+      "month_year": "2020-12",
+      "antisemitic_incidents": 30.6,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2020-12-01 00:00:00"
+    },
+    {
+      "month_year": "2021-01",
+      "antisemitic_incidents": 16.35,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-01-01 00:00:00"
+    },
+    {
+      "month_year": "2021-02",
+      "antisemitic_incidents": 24.6,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-02-01 00:00:00"
+    },
+    {
+      "month_year": "2021-03",
+      "antisemitic_incidents": 62.85,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-03-01 00:00:00"
+    },
+    {
+      "month_year": "2021-04",
+      "antisemitic_incidents": 84.05,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-04-01 00:00:00"
+    },
+    {
+      "month_year": "2021-05",
+      "antisemitic_incidents": 121.3,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-05-01 00:00:00"
+    },
+    {
+      "month_year": "2021-06",
+      "antisemitic_incidents": 73.2,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-06-01 00:00:00"
+    },
+    {
+      "month_year": "2021-07",
+      "antisemitic_incidents": 41.7,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-07-01 00:00:00"
+    },
+    {
+      "month_year": "2021-08",
+      "antisemitic_incidents": 44.4,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-08-01 00:00:00"
+    },
+    {
+      "month_year": "2021-09",
+      "antisemitic_incidents": 61.55,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-09-01 00:00:00"
+    },
+    {
+      "month_year": "2021-10",
+      "antisemitic_incidents": 46.65,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-10-01 00:00:00"
+    },
+    {
+      "month_year": "2021-11",
+      "antisemitic_incidents": 48.75,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-11-01 00:00:00"
+    },
+    {
+      "month_year": "2021-12",
+      "antisemitic_incidents": 51.35,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2021-12-01 00:00:00"
+    },
+    {
+      "month_year": "2022-01",
+      "antisemitic_incidents": 50.65,
+      "total_hate_crimes": 727.0,
+      "estimated_antisemitic_fbi": 94.51,
+      "date": "2022-01-01 00:00:00"
+    },
+    {
+      "month_year": "2022-02",
+      "antisemitic_incidents": 118.05,
+      "total_hate_crimes": 931.0,
+      "estimated_antisemitic_fbi": 121.03,
+      "date": "2022-02-01 00:00:00"
+    },
+    {
+      "month_year": "2022-03",
+      "antisemitic_incidents": 72.9,
+      "total_hate_crimes": 955.0,
+      "estimated_antisemitic_fbi": 124.15,
+      "date": "2022-03-01 00:00:00"
+    },
+    {
+      "month_year": "2022-04",
+      "antisemitic_incidents": 54.1,
+      "total_hate_crimes": 910.0,
+      "estimated_antisemitic_fbi": 118.3,
+      "date": "2022-04-01 00:00:00"
+    },
+    {
+      "month_year": "2022-05",
+      "antisemitic_incidents": 69.6,
+      "total_hate_crimes": 1184.0,
+      "estimated_antisemitic_fbi": 153.92000000000002,
+      "date": "2022-05-01 00:00:00"
+    },
+    {
+      "month_year": "2022-06",
+      "antisemitic_incidents": 150.8,
+      "total_hate_crimes": 1183.0,
+      "estimated_antisemitic_fbi": 153.79,
+      "date": "2022-06-01 00:00:00"
+    },
+    {
+      "month_year": "2022-07",
+      "antisemitic_incidents": 253.7,
+      "total_hate_crimes": 1070.0,
+      "estimated_antisemitic_fbi": 139.1,
+      "date": "2022-07-01 00:00:00"
+    },
+    {
+      "month_year": "2022-08",
+      "antisemitic_incidents": 257.95,
+      "total_hate_crimes": 1009.0,
+      "estimated_antisemitic_fbi": 131.17000000000002,
+      "date": "2022-08-01 00:00:00"
+    },
+    {
+      "month_year": "2022-09",
+      "antisemitic_incidents": 235.45,
+      "total_hate_crimes": 1021.0,
+      "estimated_antisemitic_fbi": 132.73000000000002,
+      "date": "2022-09-01 00:00:00"
+    },
+    {
+      "month_year": "2022-10",
+      "antisemitic_incidents": 239.15,
+      "total_hate_crimes": 1026.0,
+      "estimated_antisemitic_fbi": 133.38,
+      "date": "2022-10-01 00:00:00"
+    },
+    {
+      "month_year": "2022-11",
+      "antisemitic_incidents": 240.0,
+      "total_hate_crimes": 897.0,
+      "estimated_antisemitic_fbi": 116.61,
+      "date": "2022-11-01 00:00:00"
+    },
+    {
+      "month_year": "2022-12",
+      "antisemitic_incidents": 216.45,
+      "total_hate_crimes": 855.0,
+      "estimated_antisemitic_fbi": 111.15,
+      "date": "2022-12-01 00:00:00"
+    },
+    {
+      "month_year": "2023-01",
+      "antisemitic_incidents": 253.9,
+      "total_hate_crimes": 814.0,
+      "estimated_antisemitic_fbi": 105.82000000000001,
+      "date": "2023-01-01 00:00:00"
+    },
+    {
+      "month_year": "2023-02",
+      "antisemitic_incidents": 190.0,
+      "total_hate_crimes": 805.0,
+      "estimated_antisemitic_fbi": 104.65,
+      "date": "2023-02-01 00:00:00"
+    },
+    {
+      "month_year": "2023-03",
+      "antisemitic_incidents": 248.54999999999998,
+      "total_hate_crimes": 907.0,
+      "estimated_antisemitic_fbi": 117.91000000000001,
+      "date": "2023-03-01 00:00:00"
+    },
+    {
+      "month_year": "2023-04",
+      "antisemitic_incidents": 229.5,
+      "total_hate_crimes": 923.0,
+      "estimated_antisemitic_fbi": 119.99,
+      "date": "2023-04-01 00:00:00"
+    },
+    {
+      "month_year": "2023-05",
+      "antisemitic_incidents": 263.55,
+      "total_hate_crimes": 982.0,
+      "estimated_antisemitic_fbi": 127.66,
+      "date": "2023-05-01 00:00:00"
+    },
+    {
+      "month_year": "2023-06",
+      "antisemitic_incidents": 282.25,
+      "total_hate_crimes": 1061.0,
+      "estimated_antisemitic_fbi": 137.93,
+      "date": "2023-06-01 00:00:00"
+    },
+    {
+      "month_year": "2023-07",
+      "antisemitic_incidents": 211.79999999999998,
+      "total_hate_crimes": 906.0,
+      "estimated_antisemitic_fbi": 117.78,
+      "date": "2023-07-01 00:00:00"
+    },
+    {
+      "month_year": "2023-08",
+      "antisemitic_incidents": 257.8,
+      "total_hate_crimes": 944.0,
+      "estimated_antisemitic_fbi": 122.72,
+      "date": "2023-08-01 00:00:00"
+    },
+    {
+      "month_year": "2023-09",
+      "antisemitic_incidents": 213.6,
+      "total_hate_crimes": 967.0,
+      "estimated_antisemitic_fbi": 125.71000000000001,
+      "date": "2023-09-01 00:00:00"
+    },
+    {
+      "month_year": "2023-10",
+      "antisemitic_incidents": 313.25,
+      "total_hate_crimes": 1294.0,
+      "estimated_antisemitic_fbi": 168.22,
+      "date": "2023-10-01 00:00:00"
+    },
+    {
+      "month_year": "2023-11",
+      "antisemitic_incidents": 343.05,
+      "total_hate_crimes": 1235.0,
+      "estimated_antisemitic_fbi": 160.55,
+      "date": "2023-11-01 00:00:00"
+    },
+    {
+      "month_year": "2023-12",
+      "antisemitic_incidents": 310.05,
+      "total_hate_crimes": 1030.0,
+      "estimated_antisemitic_fbi": 133.9,
+      "date": "2023-12-01 00:00:00"
+    },
+    {
+      "month_year": "2024-01",
+      "antisemitic_incidents": 250.54999999999998,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-01-01 00:00:00"
+    },
+    {
+      "month_year": "2024-02",
+      "antisemitic_incidents": 242.5,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-02-01 00:00:00"
+    },
+    {
+      "month_year": "2024-03",
+      "antisemitic_incidents": 289.25,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-03-01 00:00:00"
+    },
+    {
+      "month_year": "2024-04",
+      "antisemitic_incidents": 303.45,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-04-01 00:00:00"
+    },
+    {
+      "month_year": "2024-05",
+      "antisemitic_incidents": 305.4,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-05-01 00:00:00"
+    },
+    {
+      "month_year": "2024-06",
+      "antisemitic_incidents": 324.0,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-06-01 00:00:00"
+    },
+    {
+      "month_year": "2024-07",
+      "antisemitic_incidents": 231.2,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-07-01 00:00:00"
+    },
+    {
+      "month_year": "2024-08",
+      "antisemitic_incidents": 285.05,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-08-01 00:00:00"
+    },
+    {
+      "month_year": "2024-09",
+      "antisemitic_incidents": 246.15,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-09-01 00:00:00"
+    },
+    {
+      "month_year": "2024-10",
+      "antisemitic_incidents": 270.0,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-10-01 00:00:00"
+    },
+    {
+      "month_year": "2024-11",
+      "antisemitic_incidents": 238.85,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-11-01 00:00:00"
+    },
+    {
+      "month_year": "2024-12",
+      "antisemitic_incidents": 238.85,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2024-12-01 00:00:00"
+    },
+    {
+      "month_year": "2025-01",
+      "antisemitic_incidents": 233.75,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-01-01 00:00:00"
+    },
+    {
+      "month_year": "2025-02",
+      "antisemitic_incidents": 192.15,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-02-01 00:00:00"
+    },
+    {
+      "month_year": "2025-03",
+      "antisemitic_incidents": 269.95,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-03-01 00:00:00"
+    },
+    {
+      "month_year": "2025-04",
+      "antisemitic_incidents": 213.6,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-04-01 00:00:00"
+    },
+    {
+      "month_year": "2025-05",
+      "antisemitic_incidents": 247.1,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-05-01 00:00:00"
+    },
+    {
+      "month_year": "2025-06",
+      "antisemitic_incidents": 122.2,
+      "total_hate_crimes": 0.0,
+      "estimated_antisemitic_fbi": 0.0,
+      "date": "2025-06-01 00:00:00"
+    }
+  ],
+  "data_completeness": {
+    "current_date": "2025-06-19T05:05:45.568538",
+    "current_year_completion": 0.5,
+    "last_complete_year": 2024,
+    "fbi_data_availability": {
+      "start": "2022-01",
+      "end": "2023-12",
+      "completeness": "COMPLETE_FOR_PERIOD"
+    }
+  },
+  "analysis_timestamp": "2025-06-19T05:05:45.673295"
+}

@@ -1,0 +1,87 @@
+{
+  "yearly_data": [
+    {
+      "year": 2019,
+      "ADL": 0,
+      "FBI": 0,
+      "LAPD": 0,
+      "NYPD": 252
+    },
+    {
+      "year": 2020,
+      "ADL": 0,
+      "FBI": 0,
+      "LAPD": 0,
+      "NYPD": 126
+    },
+    {
+      "year": 2021,
+      "ADL": 0,
+      "FBI": 0,
+      "LAPD": 0,
+      "NYPD": 215
+    },
+    {
+      "year": 2022,
+      "ADL": 427,
+      "FBI": 240,
+      "LAPD": 0,
+      "NYPD": 278
+    },
+    {
+      "year": 2023,
+      "ADL": 807,
+      "FBI": 240,
+      "LAPD": 0,
+      "NYPD": 344
+    },
+    {
+      "year": 2024,
+      "ADL": 860,
+      "FBI": 0,
+      "LAPD": 11,
+      "NYPD": 370
+    },
+    {
+      "year": 2025,
+      "ADL": 406,
+      "FBI": 0,
+      "LAPD": 2,
+      "NYPD": 75
+    }
+  ],
+  "source_summary": [
+    {
+      "source": "ADL",
+      "total_records": 2500,
+      "start_date": "2022-06-20",
+      "end_date": "2025-06-19"
+    },
+    {
+      "source": "FBI",
+      "total_records": 480,
+      "start_date": "2022-01-01",
+      "end_date": "2023-12-01"
+    },
+    {
+      "source": "LAPD",
+      "total_records": 13,
+      "start_date": "2024-04-09",
+      "end_date": "2025-03-15"
+    },
+    {
+      "source": "NYPD",
+      "total_records": 1660,
+      "start_date": "2019-01-01",
+      "end_date": "2025-03-31"
+    }
+  ],
+  "total_records": 4653,
+  "years_covered": "2019-2025",
+  "sources": [
+    "ADL",
+    "FBI",
+    "LAPD",
+    "NYPD"
+  ]
+}

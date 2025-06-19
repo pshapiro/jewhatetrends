@@ -1,0 +1,2432 @@
+{
+  "city_data": [
+    {
+      "city": "New York",
+      "state": "NY",
+      "latitude": 40.6782,
+      "longitude": -73.9442,
+      "incident_count": 3575
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "incident_count": 717
+    },
+    {
+      "city": "City_8",
+      "state": "CA",
+      "latitude": 44.3332799951676,
+      "longitude": -82.62771664997037,
+      "incident_count": 24
+    },
+    {
+      "city": "City_20",
+      "state": "NY",
+      "latitude": 42.82385634716921,
+      "longitude": -78.0061067056336,
+      "incident_count": 23
+    },
+    {
+      "city": "City_31",
+      "state": "NY",
+      "latitude": 43.53216849580062,
+      "longitude": -74.67271322426197,
+      "incident_count": 21
+    },
+    {
+      "city": "City_43",
+      "state": "NY",
+      "latitude": 44.86313984999129,
+      "longitude": -73.04012064770335,
+      "incident_count": 20
+    },
+    {
+      "city": "City_33",
+      "state": "CA",
+      "latitude": 42.458053689920064,
+      "longitude": -70.75085447613807,
+      "incident_count": 20
+    },
+    {
+      "city": "City_49",
+      "state": "CA",
+      "latitude": 40.39219145882536,
+      "longitude": -71.43068220002952,
+      "incident_count": 20
+    },
+    {
+      "city": "City_2",
+      "state": "NY",
+      "latitude": 37.10938346159404,
+      "longitude": -69.29389285266203,
+      "incident_count": 20
+    },
+    {
+      "city": "City_37",
+      "state": "NY",
+      "latitude": 39.18342533665095,
+      "longitude": -67.56746257601196,
+      "incident_count": 20
+    },
+    {
+      "city": "City_19",
+      "state": "NY",
+      "latitude": 40.381148769429565,
+      "longitude": -75.86254233677613,
+      "incident_count": 19
+    },
+    {
+      "city": "City_45",
+      "state": "CA",
+      "latitude": 35.930693857564435,
+      "longitude": -68.33422236796066,
+      "incident_count": 19
+    },
+    {
+      "city": "City_23",
+      "state": "NY",
+      "latitude": 38.58636105873126,
+      "longitude": -71.46230206969841,
+      "incident_count": 19
+    },
+    {
+      "city": "City_45",
+      "state": "NY",
+      "latitude": 41.717852956056895,
+      "longitude": -69.66321121654602,
+      "incident_count": 18
+    },
+    {
+      "city": "City_26",
+      "state": "NY",
+      "latitude": 44.291862424070025,
+      "longitude": -77.13236435571028,
+      "incident_count": 18
+    },
+    {
+      "city": "City_50",
+      "state": "NY",
+      "latitude": 45.47861454964432,
+      "longitude": -80.1040703314754,
+      "incident_count": 18
+    },
+    {
+      "city": "City_10",
+      "state": "NY",
+      "latitude": 38.23782925774688,
+      "longitude": -70.3217931653748,
+      "incident_count": 18
+    },
+    {
+      "city": "City_31",
+      "state": "CA",
+      "latitude": 38.48700870397906,
+      "longitude": -79.55109185631886,
+      "incident_count": 18
+    },
+    {
+      "city": "City_11",
+      "state": "CA",
+      "latitude": 41.36667335232041,
+      "longitude": -83.9657966661652,
+      "incident_count": 18
+    },
+    {
+      "city": "City_30",
+      "state": "NY",
+      "latitude": 44.08972695946221,
+      "longitude": -79.82436288415316,
+      "incident_count": 17
+    },
+    {
+      "city": "City_33",
+      "state": "NY",
+      "latitude": 44.21571951345231,
+      "longitude": -65.8174480268479,
+      "incident_count": 17
+    },
+    {
+      "city": "City_36",
+      "state": "NY",
+      "latitude": 45.6875047029277,
+      "longitude": -78.02398425115271,
+      "incident_count": 17
+    },
+    {
+      "city": "City_7",
+      "state": "CA",
+      "latitude": 39.0861010870519,
+      "longitude": -69.0226331375717,
+      "incident_count": 17
+    },
+    {
+      "city": "City_27",
+      "state": "NY",
+      "latitude": 37.83734062771775,
+      "longitude": -68.99449929385733,
+      "incident_count": 17
+    },
+    {
+      "city": "City_3",
+      "state": "NY",
+      "latitude": 36.94758511673845,
+      "longitude": -67.45740616643879,
+      "incident_count": 17
+    },
+    {
+      "city": "City_22",
+      "state": "CA",
+      "latitude": 44.01108228449925,
+      "longitude": -74.29043672819495,
+      "incident_count": 17
+    },
+    {
+      "city": "City_41",
+      "state": "NY",
+      "latitude": 42.95693627483018,
+      "longitude": -76.42825752453727,
+      "incident_count": 16
+    },
+    {
+      "city": "City_48",
+      "state": "NY",
+      "latitude": 36.81385197485063,
+      "longitude": -72.66729001655817,
+      "incident_count": 16
+    },
+    {
+      "city": "City_47",
+      "state": "NY",
+      "latitude": 37.824384101644,
+      "longitude": -78.9405456655222,
+      "incident_count": 16
+    },
+    {
+      "city": "City_28",
+      "state": "NY",
+      "latitude": 38.69803353448452,
+      "longitude": -70.94979960898968,
+      "incident_count": 16
+    },
+    {
+      "city": "City_12",
+      "state": "NY",
+      "latitude": 39.96223290237669,
+      "longitude": -81.86227692208335,
+      "incident_count": 16
+    },
+    {
+      "city": "City_22",
+      "state": "NY",
+      "latitude": 39.82697207946734,
+      "longitude": -80.82879819456684,
+      "incident_count": 15
+    },
+    {
+      "city": "City_21",
+      "state": "CA",
+      "latitude": 44.17594173922339,
+      "longitude": -80.35446602337022,
+      "incident_count": 15
+    },
+    {
+      "city": "City_16",
+      "state": "CA",
+      "latitude": 40.61016602241902,
+      "longitude": -66.09343917235242,
+      "incident_count": 15
+    },
+    {
+      "city": "City_20",
+      "state": "CA",
+      "latitude": 44.85506859638031,
+      "longitude": -66.0673147433106,
+      "incident_count": 15
+    },
+    {
+      "city": "City_18",
+      "state": "NY",
+      "latitude": 45.06800760517468,
+      "longitude": -76.20501285735567,
+      "incident_count": 15
+    },
+    {
+      "city": "City_4",
+      "state": "NY",
+      "latitude": 39.44597342149368,
+      "longitude": -65.89329729589956,
+      "incident_count": 15
+    },
+    {
+      "city": "City_39",
+      "state": "NY",
+      "latitude": 43.444077002179455,
+      "longitude": -73.23741795293148,
+      "incident_count": 14
+    },
+    {
+      "city": "City_5",
+      "state": "NY",
+      "latitude": 44.22935069551854,
+      "longitude": -80.22218304616331,
+      "incident_count": 14
+    },
+    {
+      "city": "City_24",
+      "state": "NY",
+      "latitude": 40.40725655218752,
+      "longitude": -64.41614368945869,
+      "incident_count": 14
+    },
+    {
+      "city": "City_13",
+      "state": "NY",
+      "latitude": 42.682150548980246,
+      "longitude": -82.98611568072951,
+      "incident_count": 14
+    },
+    {
+      "city": "City_23",
+      "state": "CA",
+      "latitude": 40.21743028005314,
+      "longitude": -73.34616239891028,
+      "incident_count": 14
+    },
+    {
+      "city": "City_1",
+      "state": "CA",
+      "latitude": 37.15749748646631,
+      "longitude": -66.1978434205452,
+      "incident_count": 14
+    },
+    {
+      "city": "City_15",
+      "state": "NY",
+      "latitude": 37.403989000994045,
+      "longitude": -70.04817955144742,
+      "incident_count": 14
+    },
+    {
+      "city": "City_43",
+      "state": "CA",
+      "latitude": 41.78662436175591,
+      "longitude": -78.60697468188067,
+      "incident_count": 14
+    },
+    {
+      "city": "City_4",
+      "state": "CA",
+      "latitude": 39.13149017342885,
+      "longitude": -71.6617425156308,
+      "incident_count": 14
+    },
+    {
+      "city": "City_40",
+      "state": "CA",
+      "latitude": 40.81857950088492,
+      "longitude": -75.93386495039843,
+      "incident_count": 14
+    },
+    {
+      "city": "City_3",
+      "state": "FL",
+      "latitude": 41.15513085844917,
+      "longitude": -74.44682158493784,
+      "incident_count": 14
+    },
+    {
+      "city": "City_17",
+      "state": "CA",
+      "latitude": 40.02925594139088,
+      "longitude": -81.15965082259564,
+      "incident_count": 14
+    },
+    {
+      "city": "City_38",
+      "state": "NY",
+      "latitude": 39.05566724646651,
+      "longitude": -81.76142616977567,
+      "incident_count": 14
+    },
+    {
+      "city": "City_8",
+      "state": "NY",
+      "latitude": 44.24714190969069,
+      "longitude": -64.20257319755898,
+      "incident_count": 13
+    },
+    {
+      "city": "City_27",
+      "state": "CA",
+      "latitude": 38.39581306911944,
+      "longitude": -69.76993948016602,
+      "incident_count": 13
+    },
+    {
+      "city": "City_3",
+      "state": "CA",
+      "latitude": 44.350015508593486,
+      "longitude": -74.1776223530303,
+      "incident_count": 13
+    },
+    {
+      "city": "City_12",
+      "state": "CA",
+      "latitude": 42.45927559815951,
+      "longitude": -67.59646116846062,
+      "incident_count": 13
+    },
+    {
+      "city": "City_49",
+      "state": "NY",
+      "latitude": 36.95353768613864,
+      "longitude": -70.7468319079165,
+      "incident_count": 13
+    },
+    {
+      "city": "City_16",
+      "state": "NY",
+      "latitude": 35.87078544562086,
+      "longitude": -67.93630038802681,
+      "incident_count": 13
+    },
+    {
+      "city": "City_36",
+      "state": "CA",
+      "latitude": 41.92302466960759,
+      "longitude": -64.27407194289205,
+      "incident_count": 13
+    },
+    {
+      "city": "City_40",
+      "state": "NY",
+      "latitude": 38.28248923475432,
+      "longitude": -65.959366608776,
+      "incident_count": 13
+    },
+    {
+      "city": "City_32",
+      "state": "CA",
+      "latitude": 35.85204946596205,
+      "longitude": -79.33156057138892,
+      "incident_count": 13
+    },
+    {
+      "city": "City_35",
+      "state": "NY",
+      "latitude": 41.875928073688726,
+      "longitude": -75.989898621528,
+      "incident_count": 13
+    },
+    {
+      "city": "City_34",
+      "state": "NY",
+      "latitude": 43.20622201440104,
+      "longitude": -76.29483430990389,
+      "incident_count": 13
+    },
+    {
+      "city": "City_37",
+      "state": "CA",
+      "latitude": 38.95320243139572,
+      "longitude": -70.80803682497692,
+      "incident_count": 13
+    },
+    {
+      "city": "City_29",
+      "state": "NY",
+      "latitude": 42.99475032758237,
+      "longitude": -68.3849365443566,
+      "incident_count": 13
+    },
+    {
+      "city": "City_25",
+      "state": "NY",
+      "latitude": 45.10614683414244,
+      "longitude": -78.93472345551967,
+      "incident_count": 13
+    },
+    {
+      "city": "City_9",
+      "state": "CA",
+      "latitude": 39.012700861501536,
+      "longitude": -70.13036510052781,
+      "incident_count": 12
+    },
+    {
+      "city": "City_46",
+      "state": "CA",
+      "latitude": 45.237326941070414,
+      "longitude": -74.33117372530339,
+      "incident_count": 12
+    },
+    {
+      "city": "City_47",
+      "state": "CA",
+      "latitude": 45.2927380487247,
+      "longitude": -72.62497656024607,
+      "incident_count": 12
+    },
+    {
+      "city": "City_1",
+      "state": "FL",
+      "latitude": 44.90229327467053,
+      "longitude": -67.83202269784907,
+      "incident_count": 12
+    },
+    {
+      "city": "City_42",
+      "state": "NY",
+      "latitude": 43.4651805785401,
+      "longitude": -67.08507344264358,
+      "incident_count": 12
+    },
+    {
+      "city": "City_14",
+      "state": "NY",
+      "latitude": 37.91001193115056,
+      "longitude": -82.86009501382132,
+      "incident_count": 12
+    },
+    {
+      "city": "City_19",
+      "state": "CA",
+      "latitude": 41.99334813957221,
+      "longitude": -76.0053590556028,
+      "incident_count": 12
+    },
+    {
+      "city": "City_25",
+      "state": "CA",
+      "latitude": 37.28260466012343,
+      "longitude": -72.32119605855047,
+      "incident_count": 12
+    },
+    {
+      "city": "City_21",
+      "state": "NY",
+      "latitude": 42.20689063534681,
+      "longitude": -73.68127189337775,
+      "incident_count": 12
+    },
+    {
+      "city": "City_6",
+      "state": "FL",
+      "latitude": 39.80504671575042,
+      "longitude": -79.55750689395572,
+      "incident_count": 12
+    },
+    {
+      "city": "City_14",
+      "state": "CA",
+      "latitude": 41.86074729788508,
+      "longitude": -77.32357058001652,
+      "incident_count": 12
+    },
+    {
+      "city": "City_13",
+      "state": "CA",
+      "latitude": 42.40662130534997,
+      "longitude": -70.84541416132551,
+      "incident_count": 12
+    },
+    {
+      "city": "City_11",
+      "state": "NY",
+      "latitude": 38.224504574391325,
+      "longitude": -73.57970219920028,
+      "incident_count": 12
+    },
+    {
+      "city": "City_9",
+      "state": "NY",
+      "latitude": 43.89232461021772,
+      "longitude": -75.06507960169223,
+      "incident_count": 11
+    },
+    {
+      "city": "City_44",
+      "state": "IL",
+      "latitude": 42.277927103811386,
+      "longitude": -71.83909351277154,
+      "incident_count": 11
+    },
+    {
+      "city": "City_44",
+      "state": "NY",
+      "latitude": 36.58479803043699,
+      "longitude": -83.66703752136512,
+      "incident_count": 11
+    },
+    {
+      "city": "City_50",
+      "state": "CA",
+      "latitude": 42.611621314574,
+      "longitude": -81.44620232717801,
+      "incident_count": 11
+    },
+    {
+      "city": "City_28",
+      "state": "CA",
+      "latitude": 36.04903047995519,
+      "longitude": -76.84211786560508,
+      "incident_count": 11
+    },
+    {
+      "city": "City_23",
+      "state": "FL",
+      "latitude": 36.85867787013667,
+      "longitude": -81.4564488077776,
+      "incident_count": 11
+    },
+    {
+      "city": "City_24",
+      "state": "CA",
+      "latitude": 39.959427720180585,
+      "longitude": -81.26277256074286,
+      "incident_count": 11
+    },
+    {
+      "city": "City_15",
+      "state": "CA",
+      "latitude": 42.60331053180938,
+      "longitude": -82.81119836035222,
+      "incident_count": 11
+    },
+    {
+      "city": "City_18",
+      "state": "FL",
+      "latitude": 41.90443037831602,
+      "longitude": -69.25186147097355,
+      "incident_count": 11
+    },
+    {
+      "city": "City_46",
+      "state": "NY",
+      "latitude": 44.73590429796709,
+      "longitude": -68.04274657291718,
+      "incident_count": 11
+    },
+    {
+      "city": "City_35",
+      "state": "CA",
+      "latitude": 40.98874671568038,
+      "longitude": -79.41554069217054,
+      "incident_count": 11
+    },
+    {
+      "city": "City_35",
+      "state": "FL",
+      "latitude": 43.67570135475825,
+      "longitude": -69.23927434406956,
+      "incident_count": 10
+    },
+    {
+      "city": "City_37",
+      "state": "FL",
+      "latitude": 39.9494174157436,
+      "longitude": -72.7017971756047,
+      "incident_count": 10
+    },
+    {
+      "city": "City_38",
+      "state": "CA",
+      "latitude": 39.95903741861398,
+      "longitude": -65.94508194130879,
+      "incident_count": 10
+    },
+    {
+      "city": "City_44",
+      "state": "FL",
+      "latitude": 41.78193879258816,
+      "longitude": -72.57152044897745,
+      "incident_count": 10
+    },
+    {
+      "city": "City_5",
+      "state": "CA",
+      "latitude": 37.83685644263485,
+      "longitude": -69.40908711023017,
+      "incident_count": 10
+    },
+    {
+      "city": "City_13",
+      "state": "FL",
+      "latitude": 36.49550825858253,
+      "longitude": -72.66755538837322,
+      "incident_count": 10
+    },
+    {
+      "city": "City_42",
+      "state": "FL",
+      "latitude": 41.0806763966386,
+      "longitude": -71.24315796395985,
+      "incident_count": 10
+    },
+    {
+      "city": "City_41",
+      "state": "CA",
+      "latitude": 39.173689727080415,
+      "longitude": -75.15343328846754,
+      "incident_count": 10
+    },
+    {
+      "city": "City_2",
+      "state": "CA",
+      "latitude": 40.47624469179385,
+      "longitude": -72.5372996574893,
+      "incident_count": 10
+    },
+    {
+      "city": "City_49",
+      "state": "FL",
+      "latitude": 38.49375376172342,
+      "longitude": -72.40291019537219,
+      "incident_count": 10
+    },
+    {
+      "city": "City_26",
+      "state": "CA",
+      "latitude": 40.50560179274271,
+      "longitude": -69.69998503590078,
+      "incident_count": 10
+    },
+    {
+      "city": "City_6",
+      "state": "NY",
+      "latitude": 45.09860449188141,
+      "longitude": -76.66048637596663,
+      "incident_count": 10
+    },
+    {
+      "city": "City_6",
+      "state": "CA",
+      "latitude": 43.46620313887189,
+      "longitude": -65.3335807532803,
+      "incident_count": 10
+    },
+    {
+      "city": "City_28",
+      "state": "FL",
+      "latitude": 41.93409144730136,
+      "longitude": -72.41503159040288,
+      "incident_count": 9
+    },
+    {
+      "city": "City_21",
+      "state": "FL",
+      "latitude": 41.0982945397656,
+      "longitude": -83.64772918155253,
+      "incident_count": 9
+    },
+    {
+      "city": "City_22",
+      "state": "FL",
+      "latitude": 38.07250000441498,
+      "longitude": -77.87022503550371,
+      "incident_count": 9
+    },
+    {
+      "city": "City_42",
+      "state": "CA",
+      "latitude": 41.35163380168088,
+      "longitude": -76.65391257687016,
+      "incident_count": 9
+    },
+    {
+      "city": "City_20",
+      "state": "FL",
+      "latitude": 38.7605983135128,
+      "longitude": -73.35952653566079,
+      "incident_count": 9
+    },
+    {
+      "city": "City_15",
+      "state": "FL",
+      "latitude": 36.923714321788566,
+      "longitude": -70.006151656507,
+      "incident_count": 9
+    },
+    {
+      "city": "City_29",
+      "state": "FL",
+      "latitude": 41.11932560521075,
+      "longitude": -80.67430569220629,
+      "incident_count": 9
+    },
+    {
+      "city": "City_33",
+      "state": "NJ",
+      "latitude": 44.486149923619486,
+      "longitude": -74.31831904251852,
+      "incident_count": 9
+    },
+    {
+      "city": "City_34",
+      "state": "CA",
+      "latitude": 37.8000409337523,
+      "longitude": -69.13910210655402,
+      "incident_count": 9
+    },
+    {
+      "city": "City_44",
+      "state": "CA",
+      "latitude": 44.11591516425724,
+      "longitude": -83.20627755886343,
+      "incident_count": 9
+    },
+    {
+      "city": "City_17",
+      "state": "NY",
+      "latitude": 41.39799233211575,
+      "longitude": -75.49443656376371,
+      "incident_count": 9
+    },
+    {
+      "city": "City_37",
+      "state": "NJ",
+      "latitude": 40.28839492433246,
+      "longitude": -69.98537280862574,
+      "incident_count": 8
+    },
+    {
+      "city": "City_23",
+      "state": "IL",
+      "latitude": 37.127641971507465,
+      "longitude": -80.64868215679374,
+      "incident_count": 8
+    },
+    {
+      "city": "City_25",
+      "state": "FL",
+      "latitude": 41.31126629832783,
+      "longitude": -78.70112975066922,
+      "incident_count": 8
+    },
+    {
+      "city": "City_8",
+      "state": "FL",
+      "latitude": 44.35319048763149,
+      "longitude": -80.94019176251823,
+      "incident_count": 8
+    },
+    {
+      "city": "City_29",
+      "state": "CA",
+      "latitude": 39.2334475345261,
+      "longitude": -80.19544652369815,
+      "incident_count": 8
+    },
+    {
+      "city": "City_17",
+      "state": "FL",
+      "latitude": 43.32070361641356,
+      "longitude": -71.84223283735251,
+      "incident_count": 8
+    },
+    {
+      "city": "City_6",
+      "state": "NJ",
+      "latitude": 39.11438350928579,
+      "longitude": -77.75199429808477,
+      "incident_count": 8
+    },
+    {
+      "city": "City_18",
+      "state": "CA",
+      "latitude": 44.72489693374296,
+      "longitude": -75.56839884197333,
+      "incident_count": 8
+    },
+    {
+      "city": "City_12",
+      "state": "PA",
+      "latitude": 39.50494245053231,
+      "longitude": -76.13958907483885,
+      "incident_count": 8
+    },
+    {
+      "city": "City_38",
+      "state": "FL",
+      "latitude": 37.26174094839059,
+      "longitude": -73.05105603702452,
+      "incident_count": 8
+    },
+    {
+      "city": "City_32",
+      "state": "NY",
+      "latitude": 37.166242599474856,
+      "longitude": -74.53337336877802,
+      "incident_count": 8
+    },
+    {
+      "city": "City_4",
+      "state": "NJ",
+      "latitude": 37.05829109091074,
+      "longitude": -73.71401448248334,
+      "incident_count": 8
+    },
+    {
+      "city": "City_27",
+      "state": "FL",
+      "latitude": 37.564193485760846,
+      "longitude": -67.61722009139838,
+      "incident_count": 8
+    },
+    {
+      "city": "City_41",
+      "state": "FL",
+      "latitude": 40.26472462240308,
+      "longitude": -82.24651013238459,
+      "incident_count": 8
+    },
+    {
+      "city": "City_11",
+      "state": "FL",
+      "latitude": 41.10545989043806,
+      "longitude": -73.6755759087848,
+      "incident_count": 8
+    },
+    {
+      "city": "City_1",
+      "state": "NY",
+      "latitude": 37.17022397044911,
+      "longitude": -71.72298468665223,
+      "incident_count": 8
+    },
+    {
+      "city": "City_14",
+      "state": "FL",
+      "latitude": 38.40697414109852,
+      "longitude": -75.70469987783004,
+      "incident_count": 8
+    },
+    {
+      "city": "City_30",
+      "state": "CA",
+      "latitude": 42.01142440328941,
+      "longitude": -75.51683955191173,
+      "incident_count": 7
+    },
+    {
+      "city": "City_10",
+      "state": "CA",
+      "latitude": 44.95731535959273,
+      "longitude": -82.46012014005338,
+      "incident_count": 7
+    },
+    {
+      "city": "City_34",
+      "state": "FL",
+      "latitude": 42.18670631066036,
+      "longitude": -64.12353824439973,
+      "incident_count": 7
+    },
+    {
+      "city": "City_34",
+      "state": "NJ",
+      "latitude": 44.90465889637517,
+      "longitude": -65.26253278249014,
+      "incident_count": 7
+    },
+    {
+      "city": "City_10",
+      "state": "FL",
+      "latitude": 44.31557358390922,
+      "longitude": -73.63389476317742,
+      "incident_count": 7
+    },
+    {
+      "city": "City_43",
+      "state": "FL",
+      "latitude": 44.2550262993999,
+      "longitude": -70.87902061388841,
+      "incident_count": 7
+    },
+    {
+      "city": "City_39",
+      "state": "NJ",
+      "latitude": 43.065491134481,
+      "longitude": -68.4951763013271,
+      "incident_count": 7
+    },
+    {
+      "city": "City_2",
+      "state": "NJ",
+      "latitude": 37.843733652214446,
+      "longitude": -81.43446575279161,
+      "incident_count": 7
+    },
+    {
+      "city": "City_46",
+      "state": "FL",
+      "latitude": 36.3401318064208,
+      "longitude": -78.92607844435814,
+      "incident_count": 7
+    },
+    {
+      "city": "City_47",
+      "state": "MA",
+      "latitude": 41.76382988295259,
+      "longitude": -73.09817126837065,
+      "incident_count": 7
+    },
+    {
+      "city": "City_47",
+      "state": "NJ",
+      "latitude": 45.54491225956005,
+      "longitude": -78.17438211280687,
+      "incident_count": 7
+    },
+    {
+      "city": "City_47",
+      "state": "FL",
+      "latitude": 43.233467245299686,
+      "longitude": -78.5758795401829,
+      "incident_count": 7
+    },
+    {
+      "city": "City_33",
+      "state": "FL",
+      "latitude": 36.86417156934074,
+      "longitude": -64.24652059183462,
+      "incident_count": 7
+    },
+    {
+      "city": "City_7",
+      "state": "NY",
+      "latitude": 36.92427916035773,
+      "longitude": -78.86792049953038,
+      "incident_count": 7
+    },
+    {
+      "city": "City_46",
+      "state": "IL",
+      "latitude": 43.60509493764752,
+      "longitude": -76.12694585249903,
+      "incident_count": 7
+    },
+    {
+      "city": "City_41",
+      "state": "NJ",
+      "latitude": 38.71713110056287,
+      "longitude": -74.65238058974982,
+      "incident_count": 7
+    },
+    {
+      "city": "City_19",
+      "state": "NJ",
+      "latitude": 40.698380809581664,
+      "longitude": -72.32751672853095,
+      "incident_count": 7
+    },
+    {
+      "city": "City_40",
+      "state": "NJ",
+      "latitude": 42.624288695536,
+      "longitude": -74.397905820342,
+      "incident_count": 7
+    },
+    {
+      "city": "City_2",
+      "state": "FL",
+      "latitude": 38.167274116671805,
+      "longitude": -71.1809354101695,
+      "incident_count": 7
+    },
+    {
+      "city": "City_4",
+      "state": "FL",
+      "latitude": 45.608557883153296,
+      "longitude": -73.11337169991113,
+      "incident_count": 7
+    },
+    {
+      "city": "City_9",
+      "state": "FL",
+      "latitude": 44.77197655662992,
+      "longitude": -70.24078180825552,
+      "incident_count": 6
+    },
+    {
+      "city": "City_12",
+      "state": "FL",
+      "latitude": 40.81586994618402,
+      "longitude": -68.98502503436495,
+      "incident_count": 6
+    },
+    {
+      "city": "City_14",
+      "state": "NJ",
+      "latitude": 38.41643588522266,
+      "longitude": -82.81949572172321,
+      "incident_count": 6
+    },
+    {
+      "city": "City_49",
+      "state": "NJ",
+      "latitude": 36.17658584644923,
+      "longitude": -64.18869680007228,
+      "incident_count": 6
+    },
+    {
+      "city": "City_12",
+      "state": "NJ",
+      "latitude": 37.16034846697454,
+      "longitude": -68.64543995348058,
+      "incident_count": 6
+    },
+    {
+      "city": "City_7",
+      "state": "NJ",
+      "latitude": 44.62311946109954,
+      "longitude": -65.58152454119222,
+      "incident_count": 6
+    },
+    {
+      "city": "City_48",
+      "state": "NJ",
+      "latitude": 43.7476241759649,
+      "longitude": -65.53717894217627,
+      "incident_count": 6
+    },
+    {
+      "city": "City_49",
+      "state": "IL",
+      "latitude": 41.73571127120122,
+      "longitude": -76.25533039921173,
+      "incident_count": 6
+    },
+    {
+      "city": "City_45",
+      "state": "IL",
+      "latitude": 38.62847338697109,
+      "longitude": -66.81096150037638,
+      "incident_count": 6
+    },
+    {
+      "city": "City_32",
+      "state": "FL",
+      "latitude": 45.48465657181932,
+      "longitude": -83.55760207942149,
+      "incident_count": 6
+    },
+    {
+      "city": "City_28",
+      "state": "PA",
+      "latitude": 40.0539855666816,
+      "longitude": -76.64876831695173,
+      "incident_count": 6
+    },
+    {
+      "city": "City_38",
+      "state": "IL",
+      "latitude": 40.25983915189428,
+      "longitude": -73.9610903250995,
+      "incident_count": 6
+    },
+    {
+      "city": "City_34",
+      "state": "IL",
+      "latitude": 42.92811517604355,
+      "longitude": -69.43452398285581,
+      "incident_count": 6
+    },
+    {
+      "city": "City_36",
+      "state": "FL",
+      "latitude": 39.08472372440227,
+      "longitude": -70.37595152207588,
+      "incident_count": 6
+    },
+    {
+      "city": "City_36",
+      "state": "MA",
+      "latitude": 44.08051382049671,
+      "longitude": -75.6224734050285,
+      "incident_count": 6
+    },
+    {
+      "city": "City_45",
+      "state": "PA",
+      "latitude": 45.62529982205243,
+      "longitude": -79.86383826457278,
+      "incident_count": 6
+    },
+    {
+      "city": "City_50",
+      "state": "FL",
+      "latitude": 43.40753454701174,
+      "longitude": -81.4645650214741,
+      "incident_count": 6
+    },
+    {
+      "city": "City_50",
+      "state": "IL",
+      "latitude": 37.75242114674309,
+      "longitude": -71.76445598061395,
+      "incident_count": 6
+    },
+    {
+      "city": "City_23",
+      "state": "NJ",
+      "latitude": 41.88314533209501,
+      "longitude": -77.83718521437746,
+      "incident_count": 6
+    },
+    {
+      "city": "City_43",
+      "state": "PA",
+      "latitude": 45.61222289108237,
+      "longitude": -71.76097546399943,
+      "incident_count": 6
+    },
+    {
+      "city": "City_39",
+      "state": "FL",
+      "latitude": 42.57662745119451,
+      "longitude": -71.70171171221499,
+      "incident_count": 6
+    },
+    {
+      "city": "City_6",
+      "state": "PA",
+      "latitude": 45.57937504960849,
+      "longitude": -79.72901921529389,
+      "incident_count": 6
+    },
+    {
+      "city": "City_18",
+      "state": "IL",
+      "latitude": 40.4081952713026,
+      "longitude": -71.69756326655292,
+      "incident_count": 6
+    },
+    {
+      "city": "City_24",
+      "state": "PA",
+      "latitude": 36.92559859260438,
+      "longitude": -83.98384060955172,
+      "incident_count": 6
+    },
+    {
+      "city": "City_24",
+      "state": "FL",
+      "latitude": 35.8811868414921,
+      "longitude": -68.1747852834589,
+      "incident_count": 6
+    },
+    {
+      "city": "City_42",
+      "state": "NJ",
+      "latitude": 40.02152012464695,
+      "longitude": -74.0589329815088,
+      "incident_count": 6
+    },
+    {
+      "city": "City_15",
+      "state": "IL",
+      "latitude": 40.92864009768177,
+      "longitude": -81.20266646974011,
+      "incident_count": 6
+    },
+    {
+      "city": "City_32",
+      "state": "NJ",
+      "latitude": 44.54693962928988,
+      "longitude": -78.99913113036473,
+      "incident_count": 6
+    },
+    {
+      "city": "City_48",
+      "state": "CA",
+      "latitude": 37.79086879722684,
+      "longitude": -64.37952447422387,
+      "incident_count": 6
+    },
+    {
+      "city": "City_19",
+      "state": "FL",
+      "latitude": 42.89564263702262,
+      "longitude": -79.09332506364765,
+      "incident_count": 5
+    },
+    {
+      "city": "City_1",
+      "state": "IL",
+      "latitude": 44.42355890211064,
+      "longitude": -78.06427367548115,
+      "incident_count": 5
+    },
+    {
+      "city": "City_18",
+      "state": "NJ",
+      "latitude": 41.88325128853349,
+      "longitude": -71.84877526254408,
+      "incident_count": 5
+    },
+    {
+      "city": "City_16",
+      "state": "NJ",
+      "latitude": 42.8306330720216,
+      "longitude": -72.73245836367408,
+      "incident_count": 5
+    },
+    {
+      "city": "City_31",
+      "state": "NJ",
+      "latitude": 37.84418188959433,
+      "longitude": -69.274225455106,
+      "incident_count": 5
+    },
+    {
+      "city": "City_39",
+      "state": "PA",
+      "latitude": 39.81683045504599,
+      "longitude": -65.9011943899884,
+      "incident_count": 5
+    },
+    {
+      "city": "City_42",
+      "state": "MA",
+      "latitude": 41.89278666875835,
+      "longitude": -83.59530197415216,
+      "incident_count": 5
+    },
+    {
+      "city": "City_22",
+      "state": "IL",
+      "latitude": 44.314636996536535,
+      "longitude": -72.89589234633468,
+      "incident_count": 5
+    },
+    {
+      "city": "City_2",
+      "state": "PA",
+      "latitude": 37.78025217528405,
+      "longitude": -69.4729364015088,
+      "incident_count": 5
+    },
+    {
+      "city": "City_2",
+      "state": "MA",
+      "latitude": 44.32665079271904,
+      "longitude": -82.3039288316464,
+      "incident_count": 5
+    },
+    {
+      "city": "City_2",
+      "state": "IL",
+      "latitude": 42.53616705156852,
+      "longitude": -79.8538487878709,
+      "incident_count": 5
+    },
+    {
+      "city": "City_19",
+      "state": "PA",
+      "latitude": 44.35482719908747,
+      "longitude": -72.91086372276314,
+      "incident_count": 5
+    },
+    {
+      "city": "City_27",
+      "state": "NJ",
+      "latitude": 44.05098160950117,
+      "longitude": -68.73832585428215,
+      "incident_count": 5
+    },
+    {
+      "city": "City_22",
+      "state": "NJ",
+      "latitude": 38.403507430969576,
+      "longitude": -66.06500465770176,
+      "incident_count": 5
+    },
+    {
+      "city": "City_16",
+      "state": "FL",
+      "latitude": 43.3771618488085,
+      "longitude": -69.03865976254032,
+      "incident_count": 5
+    },
+    {
+      "city": "City_24",
+      "state": "MA",
+      "latitude": 37.44742446613834,
+      "longitude": -80.81734213081432,
+      "incident_count": 5
+    },
+    {
+      "city": "City_7",
+      "state": "FL",
+      "latitude": 44.70191103034163,
+      "longitude": -68.76322323732033,
+      "incident_count": 5
+    },
+    {
+      "city": "City_50",
+      "state": "NJ",
+      "latitude": 40.08130754319257,
+      "longitude": -66.2654049782364,
+      "incident_count": 5
+    },
+    {
+      "city": "City_50",
+      "state": "PA",
+      "latitude": 44.02286765048411,
+      "longitude": -74.1758793420843,
+      "incident_count": 5
+    },
+    {
+      "city": "City_6",
+      "state": "IL",
+      "latitude": 42.53363449781526,
+      "longitude": -74.77938187660808,
+      "incident_count": 5
+    },
+    {
+      "city": "City_25",
+      "state": "PA",
+      "latitude": 43.62440804703392,
+      "longitude": -64.27595006894856,
+      "incident_count": 5
+    },
+    {
+      "city": "City_14",
+      "state": "PA",
+      "latitude": 36.40238427147818,
+      "longitude": -82.51967387135397,
+      "incident_count": 5
+    },
+    {
+      "city": "City_37",
+      "state": "IL",
+      "latitude": 41.746162708138655,
+      "longitude": -67.99762387040087,
+      "incident_count": 5
+    },
+    {
+      "city": "City_30",
+      "state": "PA",
+      "latitude": 44.735929228068855,
+      "longitude": -64.63705769242202,
+      "incident_count": 5
+    },
+    {
+      "city": "City_3",
+      "state": "NJ",
+      "latitude": 41.4330705472117,
+      "longitude": -79.52467961897804,
+      "incident_count": 5
+    },
+    {
+      "city": "City_3",
+      "state": "MA",
+      "latitude": 44.72944244615273,
+      "longitude": -71.48847527376921,
+      "incident_count": 5
+    },
+    {
+      "city": "City_29",
+      "state": "NJ",
+      "latitude": 44.32083892053066,
+      "longitude": -76.80098175727709,
+      "incident_count": 5
+    },
+    {
+      "city": "City_29",
+      "state": "IL",
+      "latitude": 45.25183068281696,
+      "longitude": -65.25815609743485,
+      "incident_count": 5
+    },
+    {
+      "city": "City_33",
+      "state": "PA",
+      "latitude": 39.1417504739037,
+      "longitude": -64.60843432830106,
+      "incident_count": 5
+    },
+    {
+      "city": "City_39",
+      "state": "CA",
+      "latitude": 40.86442805363983,
+      "longitude": -77.57361606030446,
+      "incident_count": 5
+    },
+    {
+      "city": "City_8",
+      "state": "MA",
+      "latitude": 43.915123094964095,
+      "longitude": -77.0803730443169,
+      "incident_count": 5
+    },
+    {
+      "city": "City_46",
+      "state": "NJ",
+      "latitude": 38.86727710055308,
+      "longitude": -80.6249093743142,
+      "incident_count": 5
+    },
+    {
+      "city": "City_45",
+      "state": "FL",
+      "latitude": 37.69846431773843,
+      "longitude": -64.26478488566404,
+      "incident_count": 5
+    },
+    {
+      "city": "City_5",
+      "state": "PA",
+      "latitude": 43.064014394065865,
+      "longitude": -64.29276984959975,
+      "incident_count": 5
+    },
+    {
+      "city": "City_5",
+      "state": "FL",
+      "latitude": 41.71523571628083,
+      "longitude": -68.01565220238074,
+      "incident_count": 5
+    },
+    {
+      "city": "City_13",
+      "state": "NJ",
+      "latitude": 38.46871898279229,
+      "longitude": -74.34187863195267,
+      "incident_count": 5
+    },
+    {
+      "city": "City_11",
+      "state": "PA",
+      "latitude": 37.88566686891082,
+      "longitude": -69.52526334667462,
+      "incident_count": 4
+    },
+    {
+      "city": "City_14",
+      "state": "IL",
+      "latitude": 36.501058669918834,
+      "longitude": -79.31058791242582,
+      "incident_count": 4
+    },
+    {
+      "city": "City_13",
+      "state": "MA",
+      "latitude": 38.78658030451602,
+      "longitude": -73.58455990334502,
+      "incident_count": 4
+    },
+    {
+      "city": "City_12",
+      "state": "IL",
+      "latitude": 38.59173311736822,
+      "longitude": -79.54344792808214,
+      "incident_count": 4
+    },
+    {
+      "city": "City_25",
+      "state": "NJ",
+      "latitude": 43.12190184576004,
+      "longitude": -73.08100647332809,
+      "incident_count": 4
+    },
+    {
+      "city": "City_25",
+      "state": "MA",
+      "latitude": 38.84119281693541,
+      "longitude": -80.04617875472964,
+      "incident_count": 4
+    },
+    {
+      "city": "City_15",
+      "state": "NJ",
+      "latitude": 43.07830367158588,
+      "longitude": -81.46085059215896,
+      "incident_count": 4
+    },
+    {
+      "city": "City_46",
+      "state": "PA",
+      "latitude": 36.45820233267221,
+      "longitude": -82.56403876916183,
+      "incident_count": 4
+    },
+    {
+      "city": "City_45",
+      "state": "MA",
+      "latitude": 41.32143741817033,
+      "longitude": -68.95336687910827,
+      "incident_count": 4
+    },
+    {
+      "city": "City_45",
+      "state": "NJ",
+      "latitude": 39.20491898039322,
+      "longitude": -76.98638249619913,
+      "incident_count": 4
+    },
+    {
+      "city": "City_5",
+      "state": "NJ",
+      "latitude": 36.34665494591074,
+      "longitude": -74.09572726822276,
+      "incident_count": 4
+    },
+    {
+      "city": "City_49",
+      "state": "PA",
+      "latitude": 40.556367440371815,
+      "longitude": -66.87713307992223,
+      "incident_count": 4
+    },
+    {
+      "city": "City_1",
+      "state": "NJ",
+      "latitude": 43.80320890337968,
+      "longitude": -82.71254372658008,
+      "incident_count": 4
+    },
+    {
+      "city": "City_7",
+      "state": "PA",
+      "latitude": 36.01789878971023,
+      "longitude": -70.10103792622311,
+      "incident_count": 4
+    },
+    {
+      "city": "City_48",
+      "state": "FL",
+      "latitude": 45.114652394025136,
+      "longitude": -71.85670860578396,
+      "incident_count": 4
+    },
+    {
+      "city": "City_34",
+      "state": "MA",
+      "latitude": 36.56954626245052,
+      "longitude": -75.64993019076896,
+      "incident_count": 4
+    },
+    {
+      "city": "City_47",
+      "state": "PA",
+      "latitude": 39.63040023775562,
+      "longitude": -73.60776518523133,
+      "incident_count": 4
+    },
+    {
+      "city": "City_38",
+      "state": "MA",
+      "latitude": 40.51930060147951,
+      "longitude": -69.72834320824904,
+      "incident_count": 4
+    },
+    {
+      "city": "City_36",
+      "state": "PA",
+      "latitude": 41.89457293310871,
+      "longitude": -78.24225934538885,
+      "incident_count": 4
+    },
+    {
+      "city": "City_35",
+      "state": "NJ",
+      "latitude": 39.64411240003712,
+      "longitude": -74.17822549093158,
+      "incident_count": 4
+    },
+    {
+      "city": "City_38",
+      "state": "PA",
+      "latitude": 41.80607219079789,
+      "longitude": -67.9682385045285,
+      "incident_count": 4
+    },
+    {
+      "city": "City_28",
+      "state": "NJ",
+      "latitude": 43.48649548824938,
+      "longitude": -79.17985758654581,
+      "incident_count": 4
+    },
+    {
+      "city": "City_30",
+      "state": "FL",
+      "latitude": 44.13836219885214,
+      "longitude": -75.6267716962848,
+      "incident_count": 4
+    },
+    {
+      "city": "City_30",
+      "state": "IL",
+      "latitude": 43.10407354817158,
+      "longitude": -78.79234627564065,
+      "incident_count": 4
+    },
+    {
+      "city": "City_31",
+      "state": "FL",
+      "latitude": 39.96590045681582,
+      "longitude": -75.42514032941058,
+      "incident_count": 4
+    },
+    {
+      "city": "City_31",
+      "state": "IL",
+      "latitude": 37.06099679701055,
+      "longitude": -64.28557229109248,
+      "incident_count": 4
+    },
+    {
+      "city": "City_30",
+      "state": "MA",
+      "latitude": 40.53768055835249,
+      "longitude": -67.18591439515424,
+      "incident_count": 4
+    },
+    {
+      "city": "City_30",
+      "state": "NJ",
+      "latitude": 44.53880139569604,
+      "longitude": -72.90604192355613,
+      "incident_count": 4
+    },
+    {
+      "city": "City_37",
+      "state": "PA",
+      "latitude": 43.71578852558527,
+      "longitude": -83.33071707634421,
+      "incident_count": 4
+    },
+    {
+      "city": "City_29",
+      "state": "MA",
+      "latitude": 41.07475328705444,
+      "longitude": -64.6828795611594,
+      "incident_count": 4
+    },
+    {
+      "city": "City_29",
+      "state": "PA",
+      "latitude": 41.77593428790187,
+      "longitude": -64.09032475969464,
+      "incident_count": 4
+    },
+    {
+      "city": "City_27",
+      "state": "MA",
+      "latitude": 44.898423722286566,
+      "longitude": -68.64020461680386,
+      "incident_count": 4
+    },
+    {
+      "city": "City_42",
+      "state": "PA",
+      "latitude": 41.24312495339881,
+      "longitude": -64.66701790873994,
+      "incident_count": 4
+    },
+    {
+      "city": "City_42",
+      "state": "IL",
+      "latitude": 41.12271444316056,
+      "longitude": -74.8779540438375,
+      "incident_count": 4
+    },
+    {
+      "city": "City_40",
+      "state": "PA",
+      "latitude": 45.51314329096332,
+      "longitude": -72.31632291828296,
+      "incident_count": 4
+    },
+    {
+      "city": "City_40",
+      "state": "IL",
+      "latitude": 43.9375290275014,
+      "longitude": -74.29424938699276,
+      "incident_count": 4
+    },
+    {
+      "city": "City_21",
+      "state": "MA",
+      "latitude": 35.94988722843634,
+      "longitude": -80.81596189267586,
+      "incident_count": 4
+    },
+    {
+      "city": "City_21",
+      "state": "NJ",
+      "latitude": 40.40955219336069,
+      "longitude": -74.06984748492033,
+      "incident_count": 4
+    },
+    {
+      "city": "City_9",
+      "state": "NJ",
+      "latitude": 40.67202726511983,
+      "longitude": -64.63483919767907,
+      "incident_count": 4
+    },
+    {
+      "city": "City_26",
+      "state": "MA",
+      "latitude": 39.03599964013282,
+      "longitude": -83.94812079836605,
+      "incident_count": 4
+    },
+    {
+      "city": "City_16",
+      "state": "PA",
+      "latitude": 39.92402302642493,
+      "longitude": -70.88492046025753,
+      "incident_count": 4
+    },
+    {
+      "city": "City_27",
+      "state": "PA",
+      "latitude": 41.87035745952058,
+      "longitude": -83.58607961337036,
+      "incident_count": 4
+    },
+    {
+      "city": "City_50",
+      "state": "MA",
+      "latitude": 43.240830875094645,
+      "longitude": -70.3584558198819,
+      "incident_count": 4
+    },
+    {
+      "city": "City_20",
+      "state": "PA",
+      "latitude": 42.68496865842198,
+      "longitude": -78.78122894691043,
+      "incident_count": 4
+    },
+    {
+      "city": "City_20",
+      "state": "NJ",
+      "latitude": 40.63659166083509,
+      "longitude": -79.03429346706986,
+      "incident_count": 4
+    },
+    {
+      "city": "City_9",
+      "state": "PA",
+      "latitude": 41.26054136633754,
+      "longitude": -70.06573548747414,
+      "incident_count": 4
+    },
+    {
+      "city": "City_17",
+      "state": "PA",
+      "latitude": 38.37107821048264,
+      "longitude": -82.76101926551932,
+      "incident_count": 4
+    },
+    {
+      "city": "City_44",
+      "state": "NJ",
+      "latitude": 41.54408308956941,
+      "longitude": -71.62090903796883,
+      "incident_count": 4
+    },
+    {
+      "city": "City_44",
+      "state": "MA",
+      "latitude": 38.73181032356922,
+      "longitude": -67.22140706445217,
+      "incident_count": 4
+    },
+    {
+      "city": "City_18",
+      "state": "MA",
+      "latitude": 45.29919071831205,
+      "longitude": -77.64592128605702,
+      "incident_count": 4
+    },
+    {
+      "city": "City_17",
+      "state": "MA",
+      "latitude": 38.99970068799241,
+      "longitude": -71.07053404391274,
+      "incident_count": 4
+    },
+    {
+      "city": "City_11",
+      "state": "NJ",
+      "latitude": 42.24141547232606,
+      "longitude": -81.8180615269014,
+      "incident_count": 3
+    },
+    {
+      "city": "City_44",
+      "state": "PA",
+      "latitude": 44.07016835563347,
+      "longitude": -77.93263301131854,
+      "incident_count": 3
+    },
+    {
+      "city": "City_1",
+      "state": "MA",
+      "latitude": 43.35319777591873,
+      "longitude": -71.39194608921747,
+      "incident_count": 3
+    },
+    {
+      "city": "City_4",
+      "state": "PA",
+      "latitude": 37.84435004466087,
+      "longitude": -66.1002816109274,
+      "incident_count": 3
+    },
+    {
+      "city": "City_32",
+      "state": "PA",
+      "latitude": 42.54940513124264,
+      "longitude": -73.0826237408701,
+      "incident_count": 3
+    },
+    {
+      "city": "City_36",
+      "state": "NJ",
+      "latitude": 40.60195344947634,
+      "longitude": -80.53452328654285,
+      "incident_count": 3
+    },
+    {
+      "city": "City_36",
+      "state": "IL",
+      "latitude": 42.56226570879775,
+      "longitude": -65.60277295642216,
+      "incident_count": 3
+    },
+    {
+      "city": "City_3",
+      "state": "PA",
+      "latitude": 42.655997377274375,
+      "longitude": -81.9291226479931,
+      "incident_count": 3
+    },
+    {
+      "city": "City_38",
+      "state": "NJ",
+      "latitude": 42.737370349818406,
+      "longitude": -71.94390722303848,
+      "incident_count": 3
+    },
+    {
+      "city": "City_47",
+      "state": "IL",
+      "latitude": 40.20039826102083,
+      "longitude": -79.69751175398642,
+      "incident_count": 3
+    },
+    {
+      "city": "City_39",
+      "state": "MA",
+      "latitude": 44.39378290254312,
+      "longitude": -81.40035979728664,
+      "incident_count": 3
+    },
+    {
+      "city": "City_31",
+      "state": "PA",
+      "latitude": 43.17460605460077,
+      "longitude": -80.5162234236327,
+      "incident_count": 3
+    },
+    {
+      "city": "City_8",
+      "state": "IL",
+      "latitude": 39.48222991474918,
+      "longitude": -70.96324989452017,
+      "incident_count": 3
+    },
+    {
+      "city": "City_35",
+      "state": "IL",
+      "latitude": 37.33510318087605,
+      "longitude": -79.73671169574186,
+      "incident_count": 3
+    },
+    {
+      "city": "City_13",
+      "state": "IL",
+      "latitude": 42.136563930375154,
+      "longitude": -67.69841515290008,
+      "incident_count": 3
+    },
+    {
+      "city": "City_46",
+      "state": "MA",
+      "latitude": 42.41028767058064,
+      "longitude": -81.6943947338191,
+      "incident_count": 3
+    },
+    {
+      "city": "City_5",
+      "state": "IL",
+      "latitude": 40.348782094791545,
+      "longitude": -67.95715935740319,
+      "incident_count": 3
+    },
+    {
+      "city": "City_34",
+      "state": "PA",
+      "latitude": 39.867291106893504,
+      "longitude": -67.21810381772572,
+      "incident_count": 3
+    },
+    {
+      "city": "City_7",
+      "state": "MA",
+      "latitude": 38.135546671448886,
+      "longitude": -78.98537380071413,
+      "incident_count": 3
+    },
+    {
+      "city": "City_26",
+      "state": "FL",
+      "latitude": 35.99398607702544,
+      "longitude": -81.91743909421264,
+      "incident_count": 3
+    },
+    {
+      "city": "City_33",
+      "state": "IL",
+      "latitude": 42.48520220596779,
+      "longitude": -64.58798237283744,
+      "incident_count": 3
+    },
+    {
+      "city": "City_14",
+      "state": "MA",
+      "latitude": 44.565902880372754,
+      "longitude": -79.94517856251443,
+      "incident_count": 3
+    },
+    {
+      "city": "City_1",
+      "state": "PA",
+      "latitude": 38.965635435373954,
+      "longitude": -81.96830089358345,
+      "incident_count": 3
+    },
+    {
+      "city": "City_48",
+      "state": "IL",
+      "latitude": 38.86490205384143,
+      "longitude": -81.49623125089391,
+      "incident_count": 3
+    },
+    {
+      "city": "City_19",
+      "state": "IL",
+      "latitude": 39.00917708135421,
+      "longitude": -69.76849423988783,
+      "incident_count": 3
+    },
+    {
+      "city": "City_23",
+      "state": "MA",
+      "latitude": 41.99391056669577,
+      "longitude": -73.869469347683,
+      "incident_count": 3
+    },
+    {
+      "city": "City_43",
+      "state": "NJ",
+      "latitude": 44.341686196850034,
+      "longitude": -81.92510674577139,
+      "incident_count": 3
+    },
+    {
+      "city": "City_24",
+      "state": "NJ",
+      "latitude": 42.99694342702928,
+      "longitude": -70.99768804573023,
+      "incident_count": 3
+    },
+    {
+      "city": "City_22",
+      "state": "PA",
+      "latitude": 39.74467569795128,
+      "longitude": -75.59781585902796,
+      "incident_count": 3
+    },
+    {
+      "city": "City_26",
+      "state": "NJ",
+      "latitude": 36.25687197102219,
+      "longitude": -83.0605387110154,
+      "incident_count": 3
+    },
+    {
+      "city": "City_40",
+      "state": "MA",
+      "latitude": 42.65632800067576,
+      "longitude": -81.6727019474816,
+      "incident_count": 3
+    },
+    {
+      "city": "City_43",
+      "state": "MA",
+      "latitude": 37.88432293173214,
+      "longitude": -79.82708736062665,
+      "incident_count": 3
+    },
+    {
+      "city": "City_11",
+      "state": "IL",
+      "latitude": 45.21450378392188,
+      "longitude": -80.30879785567481,
+      "incident_count": 2
+    },
+    {
+      "city": "City_10",
+      "state": "IL",
+      "latitude": 39.45737990872219,
+      "longitude": -73.0183462054837,
+      "incident_count": 2
+    },
+    {
+      "city": "City_49",
+      "state": "MA",
+      "latitude": 44.26246465579604,
+      "longitude": -82.21092440178829,
+      "incident_count": 2
+    },
+    {
+      "city": "City_8",
+      "state": "NJ",
+      "latitude": 37.41948535865899,
+      "longitude": -83.11268069532767,
+      "incident_count": 2
+    },
+    {
+      "city": "City_25",
+      "state": "IL",
+      "latitude": 38.02966937460178,
+      "longitude": -79.4916566252582,
+      "incident_count": 2
+    },
+    {
+      "city": "City_10",
+      "state": "MA",
+      "latitude": 41.6402157099306,
+      "longitude": -74.02691876838666,
+      "incident_count": 2
+    },
+    {
+      "city": "City_16",
+      "state": "IL",
+      "latitude": 41.721243281187526,
+      "longitude": -70.0865985701767,
+      "incident_count": 2
+    },
+    {
+      "city": "City_9",
+      "state": "MA",
+      "latitude": 43.302064745533926,
+      "longitude": -81.51014524078022,
+      "incident_count": 2
+    },
+    {
+      "city": "City_32",
+      "state": "IL",
+      "latitude": 44.43439316196245,
+      "longitude": -65.49487668804733,
+      "incident_count": 2
+    },
+    {
+      "city": "City_37",
+      "state": "MA",
+      "latitude": 44.1382644602331,
+      "longitude": -73.59794363958272,
+      "incident_count": 2
+    },
+    {
+      "city": "City_28",
+      "state": "MA",
+      "latitude": 36.794299014290566,
+      "longitude": -83.45304003757681,
+      "incident_count": 2
+    },
+    {
+      "city": "City_48",
+      "state": "PA",
+      "latitude": 41.53511496565618,
+      "longitude": -64.33175829802656,
+      "incident_count": 2
+    },
+    {
+      "city": "City_12",
+      "state": "MA",
+      "latitude": 44.47695717615032,
+      "longitude": -78.51407393229506,
+      "incident_count": 2
+    },
+    {
+      "city": "City_33",
+      "state": "MA",
+      "latitude": 40.041653067004624,
+      "longitude": -72.77749980952943,
+      "incident_count": 2
+    },
+    {
+      "city": "City_8",
+      "state": "PA",
+      "latitude": 44.317940845896985,
+      "longitude": -79.8132043785564,
+      "incident_count": 2
+    },
+    {
+      "city": "City_3",
+      "state": "IL",
+      "latitude": 42.28981134158546,
+      "longitude": -67.58842960984461,
+      "incident_count": 2
+    },
+    {
+      "city": "City_32",
+      "state": "MA",
+      "latitude": 40.88154656037409,
+      "longitude": -64.76849244091878,
+      "incident_count": 2
+    },
+    {
+      "city": "City_20",
+      "state": "IL",
+      "latitude": 37.97197623599844,
+      "longitude": -83.60853149919573,
+      "incident_count": 2
+    },
+    {
+      "city": "City_9",
+      "state": "IL",
+      "latitude": 37.13287920775189,
+      "longitude": -73.05699194372735,
+      "incident_count": 2
+    },
+    {
+      "city": "City_17",
+      "state": "IL",
+      "latitude": 39.447887839748056,
+      "longitude": -70.82933662421263,
+      "incident_count": 2
+    },
+    {
+      "city": "City_16",
+      "state": "MA",
+      "latitude": 40.76910042177781,
+      "longitude": -76.24558373073361,
+      "incident_count": 2
+    },
+    {
+      "city": "City_22",
+      "state": "MA",
+      "latitude": 43.522965386927055,
+      "longitude": -75.5219659654129,
+      "incident_count": 2
+    },
+    {
+      "city": "City_21",
+      "state": "IL",
+      "latitude": 38.43403427886229,
+      "longitude": -66.98641793377334,
+      "incident_count": 2
+    },
+    {
+      "city": "City_6",
+      "state": "MA",
+      "latitude": 37.79737358085359,
+      "longitude": -74.02330998119857,
+      "incident_count": 2
+    },
+    {
+      "city": "City_10",
+      "state": "NJ",
+      "latitude": 38.55663073210252,
+      "longitude": -69.7157885450642,
+      "incident_count": 2
+    },
+    {
+      "city": "City_21",
+      "state": "PA",
+      "latitude": 37.06138780975359,
+      "longitude": -79.03236793342941,
+      "incident_count": 2
+    },
+    {
+      "city": "City_43",
+      "state": "IL",
+      "latitude": 43.078555010586086,
+      "longitude": -65.95950738591647,
+      "incident_count": 2
+    },
+    {
+      "city": "City_27",
+      "state": "IL",
+      "latitude": 40.81326183771685,
+      "longitude": -77.17304435193529,
+      "incident_count": 2
+    },
+    {
+      "city": "City_41",
+      "state": "IL",
+      "latitude": 38.392986878789,
+      "longitude": -70.49209683724357,
+      "incident_count": 2
+    },
+    {
+      "city": "City_11",
+      "state": "MA",
+      "latitude": 37.15548938375289,
+      "longitude": -68.99536325257449,
+      "incident_count": 1
+    },
+    {
+      "city": "City_28",
+      "state": "IL",
+      "latitude": 45.26525935313724,
+      "longitude": -77.65316449536304,
+      "incident_count": 1
+    },
+    {
+      "city": "City_13",
+      "state": "PA",
+      "latitude": 43.7643045356249,
+      "longitude": -65.59156887129116,
+      "incident_count": 1
+    },
+    {
+      "city": "City_48",
+      "state": "MA",
+      "latitude": 44.4381330591056,
+      "longitude": -64.70604931275761,
+      "incident_count": 1
+    },
+    {
+      "city": "City_4",
+      "state": "MA",
+      "latitude": 38.91199439893162,
+      "longitude": -70.58378514987905,
+      "incident_count": 1
+    },
+    {
+      "city": "City_4",
+      "state": "IL",
+      "latitude": 37.160578456466254,
+      "longitude": -78.09265870747555,
+      "incident_count": 1
+    },
+    {
+      "city": "City_39",
+      "state": "IL",
+      "latitude": 44.23158971210455,
+      "longitude": -82.77760326272762,
+      "incident_count": 1
+    },
+    {
+      "city": "City_31",
+      "state": "MA",
+      "latitude": 38.36585273391625,
+      "longitude": -75.67309141680997,
+      "incident_count": 1
+    },
+    {
+      "city": "City_41",
+      "state": "PA",
+      "latitude": 39.769989604021234,
+      "longitude": -67.7980611405263,
+      "incident_count": 1
+    },
+    {
+      "city": "City_41",
+      "state": "MA",
+      "latitude": 41.66265450714997,
+      "longitude": -68.10714586439924,
+      "incident_count": 1
+    },
+    {
+      "city": "City_40",
+      "state": "FL",
+      "latitude": 42.77564319926135,
+      "longitude": -65.54609527270557,
+      "incident_count": 1
+    },
+    {
+      "city": "City_26",
+      "state": "PA",
+      "latitude": 36.71643515241088,
+      "longitude": -75.47036373312412,
+      "incident_count": 1
+    },
+    {
+      "city": "City_20",
+      "state": "MA",
+      "latitude": 40.67751240519683,
+      "longitude": -64.5785946673601,
+      "incident_count": 1
+    },
+    {
+      "city": "City_19",
+      "state": "MA",
+      "latitude": 37.64685647759486,
+      "longitude": -80.79872751524842,
+      "incident_count": 1
+    },
+    {
+      "city": "City_15",
+      "state": "MA",
+      "latitude": 39.96575375992969,
+      "longitude": -64.55322706327482,
+      "incident_count": 1
+    },
+    {
+      "city": "City_26",
+      "state": "IL",
+      "latitude": 42.9914025522345,
+      "longitude": -68.32479090648444,
+      "incident_count": 1
+    },
+    {
+      "city": "City_24",
+      "state": "IL",
+      "latitude": 45.49780823374288,
+      "longitude": -64.55016796181333,
+      "incident_count": 1
+    },
+    {
+      "city": "City_15",
+      "state": "PA",
+      "latitude": 37.58944727384619,
+      "longitude": -74.94893331464782,
+      "incident_count": 1
+    },
+    {
+      "city": "City_23",
+      "state": "PA",
+      "latitude": 38.5114189847468,
+      "longitude": -71.84296414504436,
+      "incident_count": 1
+    },
+    {
+      "city": "City_18",
+      "state": "PA",
+      "latitude": 43.5733303912299,
+      "longitude": -70.84033055911578,
+      "incident_count": 1
+    }
+  ],
+  "summary": {
+    "total_incidents": 6792,
+    "incidents_with_coords": 6792,
+    "cities_mapped": 346,
+    "states_covered": 7
+  }
+}
