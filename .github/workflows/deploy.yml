@@ -34,12 +34,13 @@ jobs:
       with:
         node-version: '18'
         
-    - name: Build website
-      run: |
-        cd website-source
-        npm install
-        npm run build
-        cp -r dist/* ../website/
+      - name: Build website
+        run: |
+          cd website-source
+          rm -rf node_modules package-lock.json
+          npm install
+          npm run build
+          cp -r dist/* ../website/
         
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
