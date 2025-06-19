@@ -12,6 +12,24 @@ from datetime import datetime
 import time
 import urllib.parse
 
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+def get_google_session() -> requests.Session:
+    """Return a session preloaded with Google Trends cookies."""
+    session = requests.Session()
+    session.headers.update(DEFAULT_HEADERS)
+    try:
+        session.get("https://trends.google.com/trends/", timeout=30)
+    except Exception:
+        pass
+    return session
+
 def update_trends_url(url: str, start: str, end: str) -> str:
     """Update the time range in a Google Trends export URL."""
     parsed = urllib.parse.urlparse(url)
@@ -45,9 +63,7 @@ def refresh_url_token(url: str, session: requests.Session) -> str:
         'req': json.dumps(explore_req, separators=(',', ':'))
     }
 
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-    }
+    headers = DEFAULT_HEADERS
 
     response = session.get(
         'https://trends.google.com/trends/api/explore',
@@ -99,18 +115,26 @@ def download_category_data(category, url, output_dir, start_date: str, end_date:
         print(f"🔍 Downloading {category}...")
         
         # Set up request headers
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
+        headers = DEFAULT_HEADERS
         
         # Update URL with the desired date range and refresh token
         url = update_trends_url(url, start_date, end_date)
         url = refresh_url_token(url, session)
+        retries = 1
 
-        # Make request
-        response = session.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        
+        while retries >= 0:
+            try:
+                response = session.get(url, headers=headers, timeout=30)
+                response.raise_for_status()
+                break
+            except Exception as e:
+                if retries == 0:
+                    raise
+                # refresh session and token once more
+                session = get_google_session()
+                url = refresh_url_token(url, session)
+                retries -= 1
+
         # Parse CSV data - find where actual CSV starts
         text = response.text.strip()
         lines = text.split('\n')
@@ -174,9 +198,8 @@ def main():
     start_date = "2020-06-18"
     end_date = datetime.now().strftime("%Y-%m-%d")
     
-    # Prepare session for cookie handling
-    session = requests.Session()
-    session.get('https://trends.google.com', timeout=30)
+    # Prepare session with cookies
+    session = get_google_session()
 
     # Download each category
     results = []
