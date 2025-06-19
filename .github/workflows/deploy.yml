@@ -29,14 +29,18 @@ jobs:
         chmod +x update_all_data.sh
         ./update_all_data.sh
 
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8
+        run_install: false
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'pnpm'
-
-    - name: Enable pnpm
-      run: corepack enable
+        cache-dependency-path: website-source/pnpm-lock.yaml
 
     - name: Build website
       run: |
