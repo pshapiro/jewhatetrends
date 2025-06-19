@@ -3,7 +3,15 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "noEmit": true,
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "target": "es2016",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "downlevelIteration": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
