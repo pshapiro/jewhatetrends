@@ -1,5 +1,5 @@
 {
-  "integration_timestamp": "2025-06-19T20:19:37.927544",
+  "integration_timestamp": "2025-06-19T20:40:32.221956",
   "source_statistics": {
     "existing_incidents": 0,
     "adl_incidents": 0,
@@ -35,17 +35,17 @@
     "AK": 24,
     "ID": 24,
     "WA": 24,
-    "MD": 24,
-    "MN": 24,
-    "MS": 24,
-    "ME": 24,
+    "IA": 24,
+    "KS": 24,
+    "KY": 24,
+    "IN": 24,
     "AZ": 24,
-    "NE": 24,
+    "LA": 24,
     "UT": 24,
-    "NV": 24,
-    "RI": 24,
-    "TX": 24,
-    "SC": 24
+    "ME": 24,
+    "MO": 24,
+    "SD": 24,
+    "NV": 24
   },
   "data_quality_metrics": {
     "incidents_with_coordinates": 528,
