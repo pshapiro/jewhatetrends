@@ -22,7 +22,7 @@ export function Header() {
             <div className="flex-shrink-0 flex items-center">
               <AlertTriangle className="h-8 w-8 text-red-600 mr-3" />
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Hate Crime Tracker</h1>
+                <h1 className="text-xl font-bold text-gray-900">Antisemetism Tracker</h1>
                 <p className="text-xs text-gray-600">Antisemitic Incident Monitoring & Analysis</p>
               </div>
             </div>
