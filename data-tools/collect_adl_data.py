@@ -49,6 +49,28 @@ class ADLDataCollector:
 
         return session
 
+    def fetch_fresh_cookies(self) -> requests.Session:
+        """Initialize a session and save the acquired cookies.
+
+        The cookies are written to ``adl_cookies.txt`` so future
+        runs can reuse them via ``--auto-cookies``.
+        """
+
+        session = self.init_session()
+
+        # Persist cookies for reuse
+        cookie_string = '; '.join(
+            f"{c.name}={c.value}" for c in session.cookies
+        )
+        try:
+            with open('adl_cookies.txt', 'w', encoding='utf-8') as f:
+                f.write(cookie_string)
+            logger.info('Saved fresh cookies to adl_cookies.txt')
+        except Exception as e:
+            logger.warning(f'Could not save cookies: {e}')
+
+        return session
+
     def collect_with_cookies(self, cookies_string):
         """Collect data using provided cookies.
 
@@ -217,12 +239,16 @@ If automated collection fails, collect data manually:
 
 Alternative: Extract cookies from working request and run:
 python code/collect_adl_data.py --cookies "your_cookies_here"
+You can also let the script fetch fresh cookies automatically:
+python code/collect_adl_data.py --fetch-cookies
         """)
 
 def main():
     parser = argparse.ArgumentParser(description='ADL Data Collector')
     parser.add_argument('--cookies', help='Cookie string from browser')
     parser.add_argument('--auto-cookies', action='store_true', help='Try to find cookies automatically')
+    parser.add_argument('--fetch-cookies', action='store_true',
+                        help='Fetch fresh cookies and store them to adl_cookies.txt before collecting')
     parser.add_argument('--instructions', action='store_true', help='Show manual collection instructions')
     
     args = parser.parse_args()
@@ -234,16 +260,20 @@ def main():
         return
     
     success = False
-    
+
     if args.cookies:
         success = collector.collect_with_cookies(args.cookies)
     elif args.auto_cookies:
         success = collector.auto_cookie_attempt()
+    elif args.fetch_cookies:
+        session = collector.fetch_fresh_cookies()
+        success = collector.collect_all_pages(session)
     else:
         logger.info("No collection method specified")
         logger.info("Usage:")
         logger.info("  --cookies 'cookie_string'  : Use provided cookies")
         logger.info("  --auto-cookies             : Try automatic cookie discovery")
+        logger.info("  --fetch-cookies            : Fetch fresh cookies then collect")
         logger.info("  --instructions             : Show manual collection guide")
         return
     
