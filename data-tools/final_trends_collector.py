@@ -22,6 +22,61 @@ def update_trends_url(url: str, start: str, end: str) -> str:
         params['req'] = [urllib.parse.quote(json.dumps(req_json, separators=(',', ':')))]
     new_query = '&'.join(f"{k}={v[0]}" for k, v in params.items())
     return urllib.parse.urlunparse(parsed._replace(query=new_query))
+
+def refresh_url_token(url: str, session: requests.Session) -> str:
+    """Retrieve a fresh token for the provided Google Trends URL."""
+    parsed = urllib.parse.urlparse(url)
+    params = urllib.parse.parse_qs(parsed.query)
+    if 'req' not in params:
+        return url
+
+    req_json = json.loads(urllib.parse.unquote(params['req'][0]))
+    tz = params.get('tz', ['0'])[0]
+
+    explore_req = {
+        'comparisonItem': req_json.get('comparisonItem', []),
+        'category': req_json.get('requestOptions', {}).get('category', 0),
+        'property': req_json.get('requestOptions', {}).get('property', '')
+    }
+
+    explore_params = {
+        'hl': req_json.get('locale', 'en-US'),
+        'tz': tz,
+        'req': json.dumps(explore_req, separators=(',', ':'))
+    }
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+
+    response = session.get(
+        'https://trends.google.com/trends/api/explore',
+        params=explore_params,
+        headers=headers,
+        timeout=30
+    )
+    response.raise_for_status()
+
+    text = response.text
+    if text.startswith(")]}'"):
+        text = text[5:]
+
+    data = json.loads(text)
+
+    token = None
+    for widget in data.get('widgets', []):
+        if widget.get('id') == 'TIMESERIES':
+            token = widget.get('token')
+            break
+    if not token and data.get('widgets'):
+        token = data['widgets'][0].get('token')
+
+    if token:
+        params['token'] = [token]
+        new_query = '&'.join(f"{k}={v[0]}" for k, v in params.items())
+        return urllib.parse.urlunparse(parsed._replace(query=new_query))
+
+    raise ValueError('Unable to retrieve token')
 def load_trends_urls():
     """Return the working Google Trends URLs"""
     return {
@@ -38,7 +93,7 @@ def load_trends_urls():
         "extreme_antisemitism": "https://trends.google.com/trends/api/widgetdata/multiline/csv?req=%7B%22time%22%3A%222020-06-18%202025-06-18%22%2C%22resolution%22%3A%22WEEK%22%2C%22locale%22%3A%22en-US%22%2C%22comparisonItem%22%3A%5B%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22based%20antisemitism%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22hitler%20war%20right%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22dancing%20israelis%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22fuck%20jews%22%7D%5D%7D%7D%2C%7B%22geo%22%3A%7B%22country%22%3A%22US%22%7D%2C%22complexKeywordsRestriction%22%3A%7B%22keyword%22%3A%5B%7B%22type%22%3A%22BROAD%22%2C%22value%22%3A%22fuck%20the%20jews%22%7D%5D%7D%7D%5D%2C%22requestOptions%22%3A%7B%22property%22%3A%22%22%2C%22backend%22%3A%22IZG%22%2C%22category%22%3A0%7D%2C%22userConfig%22%3A%7B%22userType%22%3A%22USER_TYPE_LEGIT_USER%22%7D%7D&token=APP6_UEAAAAAaFRyNe94XGxLTszr7tmnYFOpAfcro_lu&tz=240"
     }
 
-def download_category_data(category, url, output_dir, start_date: str, end_date: str):
+def download_category_data(category, url, output_dir, start_date: str, end_date: str, session: requests.Session):
     """Download data for a specific category"""
     try:
         print(f"🔍 Downloading {category}...")
@@ -48,11 +103,12 @@ def download_category_data(category, url, output_dir, start_date: str, end_date:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         }
         
-        # Update URL with the desired date range
+        # Update URL with the desired date range and refresh token
         url = update_trends_url(url, start_date, end_date)
+        url = refresh_url_token(url, session)
 
         # Make request
-        response = requests.get(url, headers=headers, timeout=30)
+        response = session.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         
         # Parse CSV data - find where actual CSV starts
@@ -118,10 +174,14 @@ def main():
     start_date = "2020-06-18"
     end_date = datetime.now().strftime("%Y-%m-%d")
     
+    # Prepare session for cookie handling
+    session = requests.Session()
+    session.get('https://trends.google.com', timeout=30)
+
     # Download each category
     results = []
     for category, url in urls.items():
-        result = download_category_data(category, url, output_dir, start_date, end_date)
+        result = download_category_data(category, url, output_dir, start_date, end_date, session)
         results.append(result)
         
         # Wait between requests
