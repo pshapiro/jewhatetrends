@@ -12,7 +12,8 @@ import './App.css';
 function App() {
   return (
     <DataProvider>
-      <Router basename={import.meta.env.BASE_URL}>
+      {/* Normalize the basename so routing works correctly on GitHub Pages */}
+      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
         <div className="min-h-screen bg-gray-50">
           <Header />
           <main>
