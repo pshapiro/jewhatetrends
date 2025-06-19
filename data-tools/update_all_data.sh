@@ -5,7 +5,8 @@
 
 set -e  # Exit on any error
 
-WORKSPACE_DIR="/workspace"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+WORKSPACE_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 LOG_FILE="$WORKSPACE_DIR/update.log"
 ERROR_LOG="$WORKSPACE_DIR/error.log"
 
