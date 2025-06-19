@@ -1,11 +1,11 @@
 {
-  "integration_timestamp": "2025-06-19T13:34:57.528999",
+  "integration_timestamp": "2025-06-19T14:33:02.232011",
   "source_statistics": {
     "existing_incidents": 0,
     "adl_incidents": 0,
-    "fbi_incidents": 672,
-    "total_before_dedup": 672,
-    "final_incidents": 672,
+    "fbi_incidents": 624,
+    "total_before_dedup": 624,
+    "final_incidents": 624,
     "duplicates_removed": 0
   },
   "bias_motivation_breakdown": {
@@ -13,49 +13,47 @@
     "LAPD": {},
     "ADL": {},
     "FBI": {
-      "ALL_HATE_CRIMES": 672
+      "ALL_HATE_CRIMES": 624
     },
     "Total": {
-      "ALL_HATE_CRIMES": 672
+      "ALL_HATE_CRIMES": 624
     }
   },
   "temporal_coverage": {
-    "2022": 336,
-    "2023": 336
+    "2022": 312,
+    "2023": 312
   },
   "geographic_coverage": {
     "AL": 24,
-    "MI": 24,
-    "GA": 24,
-    "FL": 24,
-    "MN": 24,
-    "MA": 24,
-    "AZ": 24,
-    "HI": 24,
-    "DE": 24,
-    "MS": 24,
     "AK": 24,
-    "ME": 24,
-    "WV": 24,
-    "VT": 24,
-    "MO": 24,
-    "LA": 24,
-    "CT": 24,
-    "MT": 24,
-    "NY": 24,
-    "AR": 24,
-    "NH": 24,
-    "KY": 24,
-    "DC": 24,
-    "IN": 24,
-    "IA": 24,
-    "CA": 24,
+    "MI": 24,
+    "DE": 24,
     "ID": 24,
+    "LA": 24,
+    "TX": 24,
+    "WI": 24,
+    "AZ": 24,
+    "KY": 24,
+    "CA": 24,
+    "ME": 24,
+    "NV": 24,
+    "NM": 24,
+    "GA": 24,
+    "SC": 24,
+    "MD": 24,
+    "AR": 24,
+    "MA": 24,
+    "HI": 24,
+    "VA": 24,
+    "FL": 24,
+    "IL": 24,
+    "CO": 24,
+    "IN": 24,
     "KS": 24
   },
   "data_quality_metrics": {
-    "incidents_with_coordinates": 672,
-    "incidents_with_descriptions": 672,
+    "incidents_with_coordinates": 624,
+    "incidents_with_descriptions": 624,
     "verified_incidents": 0,
     "antisemitic_incidents": 0,
     "completeness_score": 100.0

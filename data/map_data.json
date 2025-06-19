@@ -1,9 +1,9 @@
 {
   "city_data": [],
   "summary": {
-    "total_incidents": 672,
+    "total_incidents": 624,
     "incidents_with_coords": 0,
     "cities_mapped": 0,
-    "states_covered": 28
+    "states_covered": 26
   }
 }
