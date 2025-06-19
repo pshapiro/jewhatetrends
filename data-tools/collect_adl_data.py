@@ -34,13 +34,32 @@ class ADLDataCollector:
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         }
     
-    def collect_with_cookies(self, cookies_string):
-        """Collect data using provided cookies"""
-        
-        logger.info("Attempting ADL data collection with provided cookies")
-        
+    def init_session(self) -> requests.Session:
+        """Return a requests session preloaded with ADL cookies."""
         session = requests.Session()
         session.headers.update(self.headers)
+
+        # Visiting the heatmap page seeds session cookies that are
+        # required to access the JSON API.  Ignore any errors here and
+        # continue with whatever cookies we obtain.
+        try:
+            session.get("https://www.adl.org/apps/heatmap/", timeout=10)
+        except Exception:
+            pass
+
+        return session
+
+    def collect_with_cookies(self, cookies_string):
+        """Collect data using provided cookies.
+
+        The method first initializes a session by visiting the
+        heatmap page to obtain the required session cookies and then
+        applies the user-provided cookies if supplied.
+        """
+
+        logger.info("Attempting ADL data collection with provided cookies")
+
+        session = self.init_session()
         
         # Parse cookies string into proper format
         if cookies_string:
