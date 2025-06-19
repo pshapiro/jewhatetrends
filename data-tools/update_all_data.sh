@@ -61,7 +61,7 @@ fi
 
 # 1. Update NYPD Data
 info_log "Step 1: Updating NYPD data..."
-if python code/download_nypd_data.py; then
+if python data-tools/download_nypd_data.py; then
     success_log "NYPD data updated successfully"
 else
     error_log "NYPD data update failed, continuing with existing data"
@@ -69,7 +69,7 @@ fi
 
 # 2. Update LAPD Data
 info_log "Step 2: Updating LAPD data..."
-if python code/download_lapd_data.py; then
+if python data-tools/download_lapd_data.py; then
     success_log "LAPD data updated successfully"
 else
     error_log "LAPD data update failed, continuing with existing data"
@@ -77,7 +77,7 @@ fi
 
 # 3. Update FBI Data (Official Federal Data)
 info_log "Step 3: Updating FBI data..."
-if python code/download_fbi_data.py; then
+if python data-tools/download_fbi_data.py; then
     success_log "FBI data updated successfully"
 else
     error_log "FBI data update failed, continuing with existing data"
@@ -85,18 +85,18 @@ fi
 
 # 4. Check for ADL data updates
 info_log "Step 4: Checking ADL data updates..."
-if [ -f "code/collect_adl_data.py" ]; then
+if [ -f "data-tools/collect_adl_data.py" ]; then
     info_log "ADL collector found, attempting automatic update..."
-    if python code/collect_adl_data.py --auto-cookies; then
+    if python data-tools/collect_adl_data.py --auto-cookies; then
         success_log "ADL data updated successfully"
         # Process the collected ADL data
-        python code/process_manual_adl_data.py
+        python data-tools/process_manual_adl_data.py
     else
         warning_log "ADL automatic update failed - using existing data"
         info_log "To update ADL data manually:"
         info_log "1. Extract fresh cookies from browser"
-        info_log "2. Run: python code/collect_adl_data.py --cookies 'YOUR_COOKIES'"
-        info_log "3. Then run: python code/process_manual_adl_data.py"
+        info_log "2. Run: python data-tools/collect_adl_data.py --cookies 'YOUR_COOKIES'"
+        info_log "3. Then run: python data-tools/process_manual_adl_data.py"
     fi
 else
     info_log "Using existing ADL data"
@@ -104,7 +104,7 @@ fi
 
 # 5. Integrate all data sources
 info_log "Step 11: Integrating all data sources..."
-if python code/multi_source_integrator.py; then
+if python data-tools/multi_source_integrator.py; then
     success_log "Data integration completed successfully"
 else
     error_log "Data integration failed"
@@ -113,7 +113,7 @@ fi
 
 # 5. Enhance geographic data
 info_log "Step 11: Enhancing geographic data..."
-if python code/enhance_geographic_data.py; then
+if python data-tools/enhance_geographic_data.py; then
     success_log "Geographic enhancement completed"
 else
     error_log "Geographic enhancement failed"
@@ -123,7 +123,7 @@ fi
 # 6. Enhance ADL visibility (if needed)
 if [ "$FULL_UPDATE" = true ]; then
     info_log "Step 11: Enhancing ADL visibility across components..."
-    if python code/enhance_adl_visibility.py; then
+    if python data-tools/enhance_adl_visibility.py; then
         success_log "ADL visibility enhancement completed"
     else
         warning_log "ADL visibility enhancement failed, continuing..."
