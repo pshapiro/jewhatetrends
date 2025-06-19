@@ -37,7 +37,7 @@ const TrendsCorrelation: React.FC = () => {
   const loadCorrelationData = async () => {
     try {
       // Load correlation data
-      const correlationResponse = await fetch('/data/trends_crime_correlation.csv');
+      const correlationResponse = await fetch(`${import.meta.env.BASE_URL}data/trends_crime_correlation.csv`);
       
       if (correlationResponse.ok) {
         const csvText = await correlationResponse.text();
@@ -46,7 +46,7 @@ const TrendsCorrelation: React.FC = () => {
       }
 
       // Load correlation statistics
-      const statsResponse = await fetch('/data/correlation_analysis.json');
+      const statsResponse = await fetch(`${import.meta.env.BASE_URL}data/correlation_analysis.json`);
       
       if (statsResponse.ok) {
         const stats = await statsResponse.json();

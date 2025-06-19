@@ -50,12 +50,12 @@ const InteractiveMap: React.FC = () => {
     const loadData = async () => {
       try {
         // Load map data
-        const mapResponse = await fetch('/data/map_analysis.json');
+        const mapResponse = await fetch(`${import.meta.env.BASE_URL}data/map_analysis.json`);
         const mapDataResult = await mapResponse.json();
         setMapData(mapDataResult);
 
         // Load state data
-        const stateResponse = await fetch('/data/state_analysis.json');
+        const stateResponse = await fetch(`${import.meta.env.BASE_URL}data/state_analysis.json`);
         const stateDataResult = await stateResponse.json();
         setStateData(stateDataResult);
       } catch (error) {
