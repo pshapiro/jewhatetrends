@@ -38,9 +38,9 @@ jobs:
       run: |
         cd website-source
         rm -rf node_modules package-lock.json
-        corepack enable
-        pnpm install
-        pnpm run build
+        npm install
+        npm install # rerun due to optional dependency bug
+        npm run build
         cp -r dist/* ../website/
         
     - name: Deploy to GitHub Pages
