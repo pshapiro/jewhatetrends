@@ -288,7 +288,7 @@ function Dashboard() {
 export { Dashboard };'''
 
     # Write enhanced dashboard
-    dashboard_file = Path('hate-crime-tracker/src/components/Dashboard.tsx')
+    dashboard_file = Path('website-source/src/components/Dashboard.tsx')
     with open(dashboard_file, 'w') as f:
         f.write(dashboard_enhancement)
     
@@ -544,7 +544,7 @@ export function calculateRiskAssessment(timeSeriesData: Array<{ date: string; in
   };
 }'''
 
-    processor_file = Path('hate-crime-tracker/src/utils/dataProcessor.ts')
+    processor_file = Path('website-source/src/utils/dataProcessor.ts')
     with open(processor_file, 'w') as f:
         f.write(processor_enhancement)
     

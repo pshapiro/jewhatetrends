@@ -133,19 +133,19 @@ fi
 # 7. Update website data
 info_log "Step 11: Updating website data files..."
 # Copy enhanced data to website
-cp data/integrated/integrated_hate_crimes_enhanced.csv hate-crime-tracker/public/data/unified_hate_crimes_corrected.csv
-cp data/integrated/map_data.json hate-crime-tracker/public/data/map_data.json
+cp data/integrated/integrated_hate_crimes_enhanced.csv website-source/public/data/unified_hate_crimes_corrected.csv
+cp data/integrated/map_data.json website-source/public/data/map_data.json
 
 # Update integration report
 if [ -f "data/integrated/integration_report.json" ]; then
-    cp data/integrated/integration_report.json hate-crime-tracker/public/data/integration_report.json
+    cp data/integrated/integration_report.json website-source/public/data/integration_report.json
 fi
 
 success_log "Website data files updated"
 
 # 8. Rebuild website
 info_log "Step 11: Rebuilding website..."
-cd hate-crime-tracker
+cd website-source
 
 # Install dependencies if needed
 if [ ! -d "node_modules" ] || [ "$FULL_UPDATE" = true ]; then
@@ -172,7 +172,7 @@ import json
 from datetime import datetime
 
 # Load updated data
-df = pd.read_csv('hate-crime-tracker/public/data/unified_hate_crimes_corrected.csv')
+df = pd.read_csv('website-source/public/data/unified_hate_crimes_corrected.csv')
 
 # Generate report
 report = {
@@ -211,7 +211,7 @@ success_log "Update report generated"
 if [ "$2" = "--deploy" ] || [ "$FULL_UPDATE" = true ]; then
     info_log "Step 11: Deploying website..."
     # Note: This would need to be customized based on your hosting platform
-    info_log "Website ready for deployment from: hate-crime-tracker/dist/"
+    info_log "Website ready for deployment from: website-source/dist/"
     info_log "Manual deployment step required for your hosting platform"
 else
     info_log "Skipping deployment (add --deploy flag to deploy automatically)"
@@ -236,7 +236,7 @@ try:
     print(f'✅ Data current through {report[\"latest_incident_date\"]}')
     print(f'✅ {report[\"geographic_coverage\"][\"states\"]} states covered')
     print(f'✅ {report[\"data_quality\"][\"coordinate_coverage_percent\"]}% coordinate coverage')
-    print(f'✅ Website ready at: hate-crime-tracker/dist/')
+    print(f'✅ Website ready at: website-source/dist/')
 except:
     print('✅ Update completed (report generation failed)')
 "
@@ -244,7 +244,7 @@ except:
 echo ""
 echo -e "${BLUE}📋 Next Steps:${NC}"
 echo "1. Review update_report.json for details"
-echo "2. Deploy website from hate-crime-tracker/dist/"
+echo "2. Deploy website from website-source/dist/"
 echo "3. Monitor data quality and coverage"
 echo ""
 echo -e "${BLUE}📅 Schedule Next Update:${NC}"

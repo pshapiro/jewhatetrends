@@ -18,7 +18,7 @@ def build_website():
     
     logger.info("Building website...")
     
-    website_dir = Path("hate-crime-tracker")
+    website_dir = Path("website-source")
     if not website_dir.exists():
         logger.error("Website directory not found")
         return False
@@ -62,7 +62,7 @@ def deploy_to_platform():
     
     logger.info("Deployment functionality ready")
     
-    dist_dir = Path("hate-crime-tracker/dist")
+    dist_dir = Path("website-source/dist")
     if not dist_dir.exists():
         logger.error("❌ No build output found. Run build first.")
         return False
@@ -80,7 +80,7 @@ def deploy_to_platform():
 🚀 DEPLOYMENT OPTIONS:
 
 1. Manual Upload:
-   - Upload contents of hate-crime-tracker/dist/ to your web host
+   - Upload contents of website-source/dist/ to your web host
    
 2. Cloudflare Pages:
    - Connect your repository to Cloudflare Pages
@@ -88,7 +88,7 @@ def deploy_to_platform():
    - Set build output directory: dist
    
 3. Netlify:
-   - Drag and drop hate-crime-tracker/dist/ folder to Netlify
+   - Drag and drop website-source/dist/ folder to Netlify
    - Or connect repository with build settings
    
 4. Vercel:
@@ -98,7 +98,7 @@ def deploy_to_platform():
 5. GitHub Pages:
    - Push dist/ contents to gh-pages branch
    
-📁 Your files are ready at: hate-crime-tracker/dist/
+📁 Your files are ready at: website-source/dist/
     """)
     
     return True
@@ -122,7 +122,7 @@ def main():
     logger.info("🎉 Deployment process completed!")
     
     # Generate deployment report
-    dist_dir = Path("hate-crime-tracker/dist")
+    dist_dir = Path("website-source/dist")
     if dist_dir.exists():
         files = list(dist_dir.rglob("*"))
         file_count = len([f for f in files if f.is_file()])
@@ -144,7 +144,7 @@ def main():
         print(f"   Status: Ready for deployment")
         
         print(f"\n📁 Deploy these files:")
-        print(f"   Source: hate-crime-tracker/dist/")
+        print(f"   Source: website-source/dist/")
         print(f"   Target: Your web hosting platform")
 
 if __name__ == "__main__":
