@@ -144,25 +144,29 @@ fi
 success_log "Website data files updated"
 
 # 8. Rebuild website
-info_log "Step 11: Rebuilding website..."
-cd website-source
-
-# Install dependencies if needed
-if [ ! -d "node_modules" ] || [ "$FULL_UPDATE" = true ]; then
-    info_log "Installing/updating dependencies..."
-    npm install
-fi
-
-# Build website
-if npm run build; then
-    success_log "Website built successfully"
+if [ "$CI" = "true" ]; then
+    info_log "Step 11: Skipping website build in CI"
 else
-    error_log "Website build failed"
-    cd "$WORKSPACE_DIR"
-    exit 1
-fi
+    info_log "Step 11: Rebuilding website..."
+    cd website-source
 
-cd "$WORKSPACE_DIR"
+    # Install dependencies if needed
+    if [ ! -d "node_modules" ] || [ "$FULL_UPDATE" = true ]; then
+        info_log "Installing/updating dependencies..."
+        npm install
+    fi
+
+    # Build website
+    if npm run build; then
+        success_log "Website built successfully"
+    else
+        error_log "Website build failed"
+        cd "$WORKSPACE_DIR"
+        exit 1
+    fi
+
+    cd "$WORKSPACE_DIR"
+fi
 
 # 9. Generate update report
 info_log "Step 11: Generating update report..."
