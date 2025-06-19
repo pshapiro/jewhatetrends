@@ -38,8 +38,9 @@ jobs:
       run: |
         cd website-source
         rm -rf node_modules package-lock.json
-        npm install
-        npm run build
+        corepack enable
+        pnpm install
+        pnpm run build
         cp -r dist/* ../website/
         
     - name: Deploy to GitHub Pages
