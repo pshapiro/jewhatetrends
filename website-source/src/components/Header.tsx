@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { BarChart3, Map, TrendingUp, Database, AlertTriangle, Search } from 'lucide-react';
 import clsx from 'clsx';
 
@@ -12,7 +12,6 @@ const navigation = [
 ];
 
 export function Header() {
-  const location = useLocation();
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
@@ -33,22 +32,23 @@ export function Header() {
           <nav className="hidden md:flex space-x-8">
             {navigation.map((item) => {
               const Icon = item.icon;
-              const isActive = location.pathname === item.href;
-              
+
               return (
-                <Link
+                <NavLink
                   key={item.name}
                   to={item.href}
-                  className={clsx(
-                    'inline-flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors',
-                    isActive
-                      ? 'text-red-700 bg-red-50 border-b-2 border-red-700'
-                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
-                  )}
+                  className={({ isActive }) =>
+                    clsx(
+                      'inline-flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors',
+                      isActive
+                        ? 'text-red-700 bg-red-50 border-b-2 border-red-700'
+                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                    )
+                  }
                 >
                   <Icon className="h-4 w-4 mr-2" />
                   {item.name}
-                </Link>
+                </NavLink>
               );
             })}
           </nav>
@@ -73,24 +73,25 @@ export function Header() {
         <div className="px-2 pt-2 pb-3 space-y-1">
           {navigation.map((item) => {
             const Icon = item.icon;
-            const isActive = location.pathname === item.href;
-            
+
             return (
-              <Link
+              <NavLink
                 key={item.name}
                 to={item.href}
-                className={clsx(
-                  'block px-3 py-2 rounded-md text-base font-medium transition-colors',
-                  isActive
-                    ? 'text-red-700 bg-red-100'
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
-                )}
+                className={({ isActive }) =>
+                  clsx(
+                    'block px-3 py-2 rounded-md text-base font-medium transition-colors',
+                    isActive
+                      ? 'text-red-700 bg-red-100'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                  )
+                }
               >
                 <div className="flex items-center">
                   <Icon className="h-5 w-5 mr-2" />
                   {item.name}
                 </div>
-              </Link>
+              </NavLink>
             );
           })}
         </div>
