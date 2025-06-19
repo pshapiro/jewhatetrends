@@ -130,6 +130,14 @@ if [ "$FULL_UPDATE" = true ]; then
     fi
 fi
 
+# 6. Collect Google Trends data
+info_log "Step 11: Collecting Google Trends data..."
+if python data-tools/final_trends_collector.py; then
+    success_log "Google Trends data collected successfully"
+else
+    warning_log "Google Trends data collection failed"
+fi
+
 # 7. Update website data
 info_log "Step 11: Updating website data files..."
 # Copy enhanced data to website
