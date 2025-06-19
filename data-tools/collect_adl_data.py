@@ -30,7 +30,7 @@ class ADLDataCollector:
             'Accept': '*/*',
             'Accept-Language': 'en-US,en;q=0.9',
             'Connection': 'keep-alive',
-            'Referer': 'https://www.adl.org/apps/heatmap/',
+            'Referer': 'https://www.adl.org/resources/tools-to-track-hate/heat-map',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         }
     
@@ -43,7 +43,7 @@ class ADLDataCollector:
         # required to access the JSON API.  Ignore any errors here and
         # continue with whatever cookies we obtain.
         try:
-            session.get("https://www.adl.org/apps/heatmap/", timeout=10)
+            session.get("https://www.adl.org/resources/tools-to-track-hate/heat-map", timeout=10)
         except Exception:
             pass
 
