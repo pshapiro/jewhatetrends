@@ -8,7 +8,7 @@ import json
 import pandas as pd
 import requests
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 import urllib.parse
 
@@ -195,7 +195,14 @@ def main():
     urls = load_trends_urls()
     print(f"🔗 Configured for {len(urls)} trend categories")
 
-    start_date = "2020-06-18"
+    # Google Trends can lag a few days behind. To mimic the UI's
+    # "Past 12 months" view we start a few days earlier than exactly
+    # one year ago. This provides a small buffer so the resulting
+    # dataset aligns with the date range returned by the web UI.
+    DAYS_BUFFER = 4
+    start_date = (datetime.now() - timedelta(days=365 + DAYS_BUFFER)).strftime(
+        "%Y-%m-%d"
+    )
     end_date = datetime.now().strftime("%Y-%m-%d")
     
     # Prepare session with cookies
