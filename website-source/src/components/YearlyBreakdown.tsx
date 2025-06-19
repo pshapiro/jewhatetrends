@@ -30,7 +30,7 @@ const YearlyBreakdown: React.FC = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const response = await fetch('/data/yearly_breakdown_by_source.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/yearly_breakdown_by_source.json`);
         const breakdownData = await response.json();
         setData(breakdownData);
       } catch (error) {

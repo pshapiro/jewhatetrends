@@ -39,7 +39,7 @@ function TimeSeriesChart() {
   useEffect(() => {
     const loadYearlyBreakdown = async () => {
       try {
-        const response = await fetch('/data/yearly_breakdown_by_source.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/yearly_breakdown_by_source.json`);
         const yearlyData = await response.json();
         setYearlyBreakdownData(yearlyData);
       } catch (error) {

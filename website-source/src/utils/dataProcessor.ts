@@ -67,7 +67,7 @@ export interface RiskAssessment {
 
 export async function loadAndProcessData(): Promise<ProcessedData> {
   try {
-    const response = await fetch('/data/integrated_hate_crimes_4sources.csv');
+    const response = await fetch(`${import.meta.env.BASE_URL}data/integrated_hate_crimes_4sources.csv`);
     const csvText = await response.text();
     
     const parsed = Papa.parse<HateCrimeRecord>(csvText, {
