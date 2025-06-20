@@ -274,13 +274,15 @@ def main():
         session = collector.fetch_fresh_cookies()
         success = collector.collect_all_pages(session)
     else:
-        logger.info("No collection method specified")
-        logger.info("Usage:")
-        logger.info("  --cookies 'cookie_string'  : Use provided cookies")
-        logger.info("  --auto-cookies             : Try automatic cookie discovery")
-        logger.info("  --fetch-cookies            : Fetch fresh cookies then collect")
-        logger.info("  --instructions             : Show manual collection guide")
-        return
+        logger.info("No options supplied, attempting automatic collection")
+        success = collector.auto_cookie_attempt()
+        if not success:
+            logger.info("Usage:")
+            logger.info("  --cookies 'cookie_string'  : Use provided cookies")
+            logger.info("  --auto-cookies             : Try automatic cookie discovery")
+            logger.info("  --fetch-cookies            : Fetch fresh cookies then collect")
+            logger.info("  --instructions             : Show manual collection guide")
+            return
     
     if success:
         logger.info("🎉 ADL data collection completed successfully!")
