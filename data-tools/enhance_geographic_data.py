@@ -20,6 +20,11 @@ def enhance_geographic_data():
     
     # Create enhanced copy
     enhanced_df = df.copy()
+
+    # Ensure location columns use object dtype so string assignment works cleanly
+    for col in ['city', 'county', 'state']:
+        if col in enhanced_df.columns:
+            enhanced_df[col] = enhanced_df[col].astype('object')
     
     # 1. Fix Los Angeles identification
     print("\n🌴 Processing Los Angeles data...")
