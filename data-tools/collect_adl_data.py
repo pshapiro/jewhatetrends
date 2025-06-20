@@ -204,12 +204,17 @@ class ADLDataCollector:
             cookies = cookie_file.read_text().strip()
             return self.collect_with_cookies(cookies)
         
-        logger.warning("No automatic cookies found")
-        logger.info("To enable automatic collection:")
-        logger.info("1. Set environment variable: export ADL_COOKIES='your_cookies_here'")
-        logger.info("2. Or save cookies to: adl_cookies.txt")
-        
-        return False
+        logger.info("No stored cookies found, fetching fresh cookies...")
+        try:
+            session = self.fetch_fresh_cookies()
+            return self.collect_all_pages(session)
+        except Exception as e:
+            logger.error(f"Failed to fetch fresh cookies automatically: {e}")
+            logger.warning("No automatic cookies found")
+            logger.info("To enable automatic collection:")
+            logger.info("1. Set environment variable: export ADL_COOKIES='your_cookies_here'")
+            logger.info("2. Or save cookies to: adl_cookies.txt")
+            return False
     
     def print_manual_instructions(self):
         """Print instructions for manual data collection"""
