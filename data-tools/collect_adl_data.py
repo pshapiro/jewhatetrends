@@ -33,6 +33,24 @@ class ADLDataCollector:
             'Referer': 'https://www.adl.org/resources/tools-to-track-hate/heat-map',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         }
+
+    def log_endpoints(self):
+        """Log the main endpoints used for collection."""
+        logger.info(f"Heatmap page: https://www.adl.org/resources/tools-to-track-hate/heat-map")
+        logger.info(f"JSON endpoint base: {self.base_url}")
+
+    def fetch_page(self, session: requests.Session, page: int) -> requests.Response:
+        """Fetch a page, handling redirects and updating base_url if needed."""
+        url = f"{self.base_url}?page={page}"
+        response = session.get(url, timeout=10, allow_redirects=False)
+        if response.status_code in (301, 302, 303, 307, 308):
+            redirect_url = response.headers.get("Location")
+            if redirect_url:
+                logger.info(f"Redirected {response.status_code} -> {redirect_url}")
+                # update base_url without query parameters
+                self.base_url = redirect_url.split("?")[0]
+                response = session.get(redirect_url, timeout=10)
+        return response
     
     def init_session(self) -> requests.Session:
         """Return a requests session preloaded with ADL cookies."""
@@ -95,8 +113,8 @@ class ADLDataCollector:
             session.cookies.update(cookie_dict)
         
         try:
-            # Test with first page
-            response = session.get(f"{self.base_url}?page=0", timeout=10)
+            # Test with first page using redirect-aware fetch
+            response = self.fetch_page(session, 0)
             
             if response.status_code == 200:
                 data = response.json()
@@ -128,7 +146,7 @@ class ADLDataCollector:
             try:
                 logger.info(f"Collecting page {page}...")
                 
-                response = session.get(f"{self.base_url}?page={page}", timeout=10)
+                response = self.fetch_page(session, page)
                 
                 if response.status_code != 200:
                     logger.warning(f"Failed to get page {page}: HTTP {response.status_code}")
@@ -187,8 +205,9 @@ class ADLDataCollector:
     
     def auto_cookie_attempt(self):
         """Attempt to use cached cookies or environment variables"""
-        
+
         logger.info("Attempting automatic cookie discovery...")
+        self.log_endpoints()
         
         # Try environment variable
         import os
@@ -255,10 +274,15 @@ def main():
     parser.add_argument('--fetch-cookies', action='store_true',
                         help='Fetch fresh cookies and store them to adl_cookies.txt before collecting')
     parser.add_argument('--instructions', action='store_true', help='Show manual collection instructions')
+    parser.add_argument('--print-endpoints', action='store_true', help='Print endpoints used and exit')
     
     args = parser.parse_args()
     
     collector = ADLDataCollector()
+
+    if args.print_endpoints:
+        collector.log_endpoints()
+        return
     
     if args.instructions:
         collector.print_manual_instructions()
